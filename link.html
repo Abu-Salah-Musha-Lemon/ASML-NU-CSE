@@ -1,0 +1,74 @@
+<div id="header"></div>
+
+<body>
+
+	<div id="navigation"></div>
+
+	<div class="container-fluid  bg-light">
+		<div class="container">
+			<div class="m-4 p-4 collegeList">
+				<h2 class="hr">National University Importent Link </h2>
+				<p class="text-muted collegeName  p-3 fs-5">
+					Home <a href="https://www.nu.ac.bd/index.php" class="text-reset ">Click Me</a>.
+				</p>
+				<p class="text-muted collegeName  p-3 fs-5">
+					Recent Notice <a href="https://www.nu.ac.bd/recent-news-notice.php" class="text-reset ">Click Me</a>.
+				</p>
+				<p class="text-muted collegeName  p-3 fs-5">
+					Exam Notice <a href="https://www.nu.ac.bd/examination-notice.php" class="text-reset ">Click Me</a>.
+				</p>
+				<p class="text-muted collegeName  p-3 fs-5">
+					Admission <a href="http://app1.nu.edu.bd/" class="text-reset ">Click Me</a>.
+				</p>
+				<p class="text-muted collegeName  p-3 fs-5">
+					Result <a href="http://results.nu.ac.bd/" class="text-reset ">Click Me</a>.
+				</p>
+
+
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+	<div id="script"></div>
+
+	<script>
+		// Fetch and inject component content using fetch or AJAX
+		fetch('header.html')
+			.then(response => response.text())
+			.then(content => {
+				document.getElementById('header').innerHTML = content;
+			});
+		fetch('nav.html')
+			.then(response => response.text())
+			.then(content => {
+				document.getElementById('navigation').innerHTML = content;
+			});
+
+		fetch('footer.html')
+			.then(response => response.text())
+			.then(content => {
+				document.getElementById('footer').innerHTML = content;
+			});
+		fetch('script.html')
+			.then(response => response.text())
+			.then(content => {
+				document.getElementById('script').innerHTML = content;
+			});
+    // Repeat for other components
+	</script>
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".swiper-container", {
+			spaceBetween: 30,
+			effect: "fade",
+			loop: true,
+			autoplay: {
+				delay: 3500,
+				disableOnInteraction: false
+			}
+
+		});
+	</script>
