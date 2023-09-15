@@ -1,10 +1,39 @@
-
-
 <div id="header"></div>
+
 <body>
 
   <div id="navigation"></div>
-  <div id="main_content"></div>
+  <div id="main_content">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <div class="container-fluit px-lg-4 mt-2">
+      <div class="container  overflow-hidden ">
+        <div class="swiper swiper-container rounded">
+          <div class="swiper-wrapper shadow">
+            <div class="swiper-slide">
+              <img src="https://www.observerbd.com/2022/10/24/observerbd.com_1666602344.JPG" class="w-100 d-block"
+                style="height:600px;object:cover" />
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/17728948/pexels-photo-17728948/free-photo-of-birds-over-stairs.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-100 d-block" style="height:600px;object:cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid shadow-sm bg-color">
+        <div class=" my-2 about">
+          <h3 class="arro fs-1 fw-bolder" id="about">About</h3>
+          <br>
+          <p class="fs-3 fw-200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque facere culpa iste neque
+            velit vel, vitae ipsum dolorum dolor omnis facilis autem quas possimus esse impedit veniam! Nemo, soluta
+            minima?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div id="footer"></div>
   <div id="script"></div>
@@ -21,11 +50,11 @@
       .then(content => {
         document.getElementById('navigation').innerHTML = content;
       });
-    fetch('main.html')
-      .then(response => response.text())
-      .then(content => {
-        document.getElementById('main_content').innerHTML = content;
-      });
+    // fetch('main.html')
+    //   .then(response => response.text())
+    //   .then(content => {
+    //     document.getElementById('main_content').innerHTML = content;
+    //   });
     fetch('footer.html')
       .then(response => response.text())
       .then(content => {
@@ -54,9 +83,3 @@
 
     });
   </script>
-
-
-
-
-
-

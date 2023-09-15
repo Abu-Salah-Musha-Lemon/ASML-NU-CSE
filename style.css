@@ -33,20 +33,6 @@
     border-bottom: .4px solid rgba(255, 255, 255, .1);
   }
 
-  @media (max-width:768px) {
-    .dropdown-menu .submenu {
-      display: none;
-      position: absolute;
-      left: -100px;
-
-    }
-
-    .dropdown-menu>li:hover .submenu {
-      display: flex;
-      flex-direction: column;
-      left: 100px;
-    }
-  }
 
 
 
