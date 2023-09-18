@@ -34,11 +34,12 @@
   }
 
   .collegeName{
-    width: 80%;
+    width: 95%;
     /* background-color: rgb(229, 223, 235); */
     cursor: pointer;
-    /* border: .px solid rgb(78, 75, 75) ; */
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    padding-left: 10px;
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
   }
 .ancorTag{
   font-size: 25px;
