@@ -111,7 +111,7 @@
 				},
 				{
 					"subjectName": "Computer Architecture ",
-					"link01": "link",
+					"link01": "https://drive.google.com/file/d/1_Y4bcYZQXmjWQq4BMCmHQJEFfwn2Af_o/view?usp=drive_link",
 					"link02": "link02",
 					"link03": "link03"
 				},
@@ -299,20 +299,20 @@
 			"theory": [
 				{
 					"subjectName": "Artificial Intelligence",
-					"link01": "link",
+					"link01": "https://drive.google.com/file/d/1yjCWR31AiGZMmPa5IQ6io1Um3TlSyxfw/view?usp=drive_link",
 					"link02": "link02",
 					"link03": "link03"
 				},
 				{
 					"subjectName": "Compiler Design and Construction",
-					"link01": "link",
+					"link01": "https://drive.google.com/file/d/1Pe3deud30DHQV_nMM2NtMVTrti9Mnfkb/view?usp=drive_link",
 					"link02": "link02",
 					"link03": "link03"
 				},
 				{
 					"subjectName": "Computer Graphics",
 					"link01": "link",
-					"link02": "link02",
+					"link02": "https://drive.google.com/file/d/1p8byXVhvC960W00YmqbPsH4IFV4Sg-7f/view?usp=drive_link",
 					"link03": "link03"
 				},
 				{
@@ -325,20 +325,20 @@
 			"lab": [
 				{
 					"subjectName": "Artificial Intelligence Lab",
-					"link01": "link",
+					"link01": "https://drive.google.com/file/d/13U8UJe7ld_Ae9lbYQSZAE2YRYaKJ-zky/view?usp=drive_link",
 					"link02": "link02",
 					"link03": "link03"
 				},
 				{
 					"subjectName": "Compiler Design and Construction Lab",
-					"link01": "link",
+					"link01": "https://drive.google.com/file/d/1YVKIFOFR4WLo91Tt0LVYrrdiKsuRNjoH/view?usp=drive_link",
 					"link02": "link02",
 					"link03": "link03"
 				},
 				{
 					"subjectName": "Computer Graphics Lab",
 					"link01": "link",
-					"link02": "link02",
+					"link02": "",
 					"link03": "link03"
 				},
 				{
