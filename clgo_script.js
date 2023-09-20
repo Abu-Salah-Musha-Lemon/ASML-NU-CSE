@@ -1,18 +1,3 @@
-// fatce("data.json")
-// .then(function(response){
-//   return response.json();
-// })
-// .then(function(data){
-//   let dataName = document.querySelectorAll(".dataItem");
-//   let out = "";
-//   for(let i of data){
-//     out+=`
-//     <div class="name ancorTag">${i.collegeName}</div>
-//         <a href="${i.link}" class="text-decoration-none ancorTag">Click Here</a>
-//     `;
-//     dataName.innerHTML= out;
-//   }
-// })
 let http = new XMLHttpRequest();
 
 http.open("get", "data.json", true);

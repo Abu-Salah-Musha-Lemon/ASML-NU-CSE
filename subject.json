@@ -1,0 +1,378 @@
+{
+	"fitstSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Structured Programming Language",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Electrical and Electronic Circuit ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Calculus ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Physics",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "English",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Structured Programming Language Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Electrical and Electronic Circuit Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"secoundSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Digital Systems Design",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Discrete Mathematics",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Linear Algebra",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Statistics and Probability",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "History of the Emergence of Independent Bangladesh",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Digital Systems Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"thirdSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Data Structure",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Object Oriented Programming",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Computer Architecture ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Ordinary Differential Equation",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Fundamental of Business Studies",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Data Structure Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Object Oriented Programming Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"fourthSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Database Management System",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Microprocessor and Assembly Language ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Design and Analysis of Algorithms",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Numerical Analysis",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Database Management System Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Microprocessor and Assembly Language Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Design and Analysis of Algorithms Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"fifthSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Peripheral and Interfacing",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Data and Telecommunications",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Operating System",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Economics",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Peripheral and Interfacing Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Data and Telecommunications Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Operating System Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"sixSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Software Engineering ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Computer Networking",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Embedded System Programming ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Theory of Computation",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Software Engineering Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Computer Networking Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Embedded System Programming Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"sevenSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Artificial Intelligence",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Compiler Design and Construction",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Computer Graphics",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "E-Commerce and Web Engineering",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Artificial Intelligence Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Compiler Design and Construction Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Computer Graphics Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "E-Commerce and Web Engineering Lab",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	],
+	"eightSemester": [
+		{
+			"theory": [
+				{
+					"subjectName": "Network and Information Security",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "Information System Management",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			],
+			"lab": [
+				{
+					"subjectName": "Network and Information Security Lab ",
+					"link01": "link",
+					"link02": "link02",
+					"link03": "link03"
+				}
+			]
+		}
+	]
+}
