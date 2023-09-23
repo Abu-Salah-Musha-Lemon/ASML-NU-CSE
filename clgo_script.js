@@ -14,6 +14,7 @@ http.onload = function () {
 
              <div class="dataItem d-flex  justify-content-between border my-2 p-2 collegeName">
              <div class="name ancorTag px-4">${i.collegeName}</div>
+             <div class="name ancorTag px-4">${i.seats}</div>
              <div class="name ancorTag text-start">${i.address}</div>
 
             <a href="${i.link}" class="text-decoration-none ancorTag px-4">Website</a>

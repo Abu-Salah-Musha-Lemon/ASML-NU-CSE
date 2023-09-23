@@ -2,6 +2,7 @@
   {
     "id": "No.",
     "collegeName": "Name",
+    "seats":"Seats",
     "address": "Address",
     "phone": "Phone",
     "web-link": "web link ",
@@ -10,19 +11,26 @@
   {
     "id": 1,
     "collegeName": "Ideal College",
+    "seats":50,
     "address": "Dhanmondy dhaka-1209",
     "phone": "01912334234",
     "link": "link"
   },
   {
-    "id": 2,
-    "collegeName": "id",
-    "address": "dhaka",
+    "id": 1,
+    "collegeName": "Ideal College",
+    "seats":50,
+    "address": "Dhanmondy dhaka-1209",
     "phone": "01912334234",
     "link": "link"
   },
   {
-    "collegeName": "id",
+    "id": 1,
+    "collegeName": "Ideal College",
+    "seats":50,
+    "address": "Dhanmondy dhaka-1209",
+    "phone": "01912334234",
     "link": "link"
   }
+
 ]
