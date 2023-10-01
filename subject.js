@@ -13,7 +13,7 @@ fetch("subject.json") // Load the JSON file
             <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
             <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
             <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
-            <a href="${subject.link04}" class="name btn button_link my-2 shadow-sm">Sussation</a>
+        
             </div>
             `;
         subjectList.innerHTML = output;
@@ -34,8 +34,7 @@ fetch("subject.json") // Load the JSON file
       <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
             <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
             <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
-            <a href="${subject.link04}" class="name btn button_link my-2 shadow-sm">Sussation</a>
-      </div>
+           
       `;
         subjectList.innerHTML = output;
       });
@@ -58,7 +57,7 @@ fetch("subject.json") // Load the JSON file
             <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
             <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
             <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
-            <a href="${subject.link04}" class="name btn button_link my-2 shadow-sm">Sussation</a>
+           
             </div>
             `;
         subjectList.innerHTML = output;
