@@ -10,9 +10,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
         
             </div>
             `;
@@ -31,9 +31,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
            
       `;
         subjectList.innerHTML = output;
@@ -54,9 +52,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
            
             </div>
             `;
@@ -75,9 +73,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-      <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
       </div>
       `;
         subjectList.innerHTML = output;
@@ -98,9 +94,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link target="_blank" rel="noopener noreferrer"">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
             </div>
             `;
         subjectList.innerHTML = output;
@@ -118,9 +114,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
       </div>
       `;
         subjectList.innerHTML = output;
@@ -141,9 +135,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
             </div>
             `;
         subjectList.innerHTML = output;
@@ -161,9 +155,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-      <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
       </div>
       `;
         subjectList.innerHTML = output;
@@ -184,9 +176,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
             </div>
             `;
         subjectList.innerHTML = output;
@@ -204,9 +196,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-      <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
     
       </div>
       `;
@@ -228,9 +218,9 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
            
             </div>
             `;
@@ -249,9 +239,7 @@ fetch("subject.json") // Load the JSON file
         output += `
       <div class="subject my-2 shadow-sm ">
       <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-      <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
      
       </div>
       `;
@@ -274,9 +262,9 @@ fetch("subject.json") // Load the JSON file
         output += `
                   <div class="subject my-2 shadow-sm ">
                   <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-                  <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-                  <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-                  <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+                  <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link"target="_blank" rel="noopener noreferrer" >Chapter QB</a>
+                  <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+                  <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
                  
                   </div>
                   `;
@@ -295,9 +283,7 @@ fetch("subject.json") // Load the JSON file
         output += `
             <div class="subject my-2 shadow-sm ">
             <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
+            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer" >Note</a>
            
             </div>
             `;
@@ -318,11 +304,10 @@ fetch("subject.json") // Load the JSON file
       semester.theory.forEach(function (subject) {
         output += `
             <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
-            
+              <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
+              <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
+              <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
+              <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
             </div>
             `;
         subjectList.innerHTML = output;
@@ -339,11 +324,8 @@ fetch("subject.json") // Load the JSON file
       semester.lab.forEach(function (subject) {
         output += `
       <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link">Chapter QB</a>
-      <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm">Previous QB</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link">Note</a>
-     
+      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light ">${subject.subjectName}</a>
+      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
       </div>
       `;
         subjectList.innerHTML = output;
