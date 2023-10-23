@@ -193,4 +193,22 @@
      "phone": " 02-47112554",
      "Website": "https://www.dmmc.edu.bd/"
     }
+   ,
+   {
+     "id": 25,
+     "collegeName": "Crown Institute of Business and Technology - CIBT",
+     "seats": 40,
+     "address": "Road # 21/A, House # 05, Nekunjo-02, Dhaka 1229",
+     "phone": "  01822-889900",
+     "Website": "null"
+    }
+   ,
+   {
+     "id": 26,
+     "collegeName": "Crown Institute of Business and Technology - CIBT",
+     "seats": 40,
+     "address": "Road # 21/A, House # 05, Nekunjo-02, Dhaka 1229",
+     "phone": "  01822-889900",
+     "Website": "null"
+    }
 ]

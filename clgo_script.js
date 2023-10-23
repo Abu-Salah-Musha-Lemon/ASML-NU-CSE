@@ -12,6 +12,7 @@ http.onload = function () {
     for (const i of products) {
       output += `
 			<tr class="collegeName ">
+      <td class="name ancorTag">${i.id}</td>
       <td class="name ancorTag">${i.collegeName}</td>
       <td class="name ancorTag">${i.seats}</td>
       <td class="name ancorTag">${i.address}</td>
