@@ -1,28 +1,178 @@
 [
-
   {
     "id": 1,
     "collegeName": "Ideal College",
-    "seats":50,
+    "seats": 50,
     "address": "65 Central Road, Dhanmondi, Dhaka-1205",
     "phone": "01912334234",
-    "link": "link"
+    "Website": "link"
   },
   {
     "id": 2,
     "collegeName": "Dhaka City College",
-    "seats":120,
+    "seats": 120,
     "address": " Dhanmondi, Dhaka-1205",
     "phone": "88-02-223364115",
-    "link": "https://www.dhakacitycollege.edu.bd/index.php?request=dept&dept=CSE"
+    "Website": "https://www.dhakacitycollege.edu.bd/index.php?request=dept&dept=CSE"
   },
   {
-    "id": 1,
-    "collegeName": "a College",
-    "seats":50,
-    "address": "65 Central Road, Dhanmondi, Dhaka-1205",
-    "phone": "01912334234",
-    "link": "link"
-  }
-
+    "id": 3,
+    "collegeName": "IST",
+    "seats": 120,
+    "address": "Dhanmondi, Dhaka-1205",
+    "phone": "01726937910",
+    "Website": "https://ist.edu.bd/department-of-computer-science-and-engineering/"
+  },
+  {
+    "id": 4,
+    "collegeName": " Shaikh Burhanuddin Post Graduate College",
+    "seats": 120,
+    "address": "Nazimuddin Road, Dhaka-1100",
+    "phone": "02-57300525",
+    "Website": "https://www.sbpgc.edu.bd/index.php?option=com_content&view=article&id=177&Itemid=100"
+  },
+  {
+    "id": 5,
+    "collegeName": " Tejgaon College",
+    "seats": 120,
+    "address": "Farmgate, Dhaka-1215",
+    "phone": "01793545760",
+    "Website": "https://www.sbpgc.edu.bd/index.php?option=com_content&view=article&id=177&Itemid=100"
+  },
+  {
+    "id": 6,
+    "collegeName": " Dhaka Commerce College",
+    "seats": 120,
+    "address": "Mirpur, Dhaka-1216",
+    "phone": "02-48033903",
+    "Website": "https://www.dcc.edu.bd/"
+  },
+  {
+    "id": 7,
+    "collegeName": " Shaikh Burhanuddin Post Graduate College",
+    "seats": 80,
+    "address": "Nazimuddin Road, Dhaka-1100",
+    "phone": "02-57300525",
+    "Website": "https://www.sbpgc.edu.bd/index.php?option=com_content&view=article&id=177&Itemid=100"
+  },
+  {
+    "id": 8,
+    "collegeName": " Alhaj Mockbul Hossain College",
+    "seats": 80,
+    "address": "Mohammadpur, Dhaka-1207",
+    "phone": "01726-036251",
+    "Website": "http://www.amhcollege.edu.bd/index.php/2020-08-31-11-16-11/2020-08-31-15-39-30/2020-10-20-15-58-17/2020-09-02-13-42-04"
+  },
+  {
+    "id": 9,
+    "collegeName": " Mohammadpur Central College",
+    "seats": 80,
+    "address": " Nurjahan Road, Dhaka-1207",
+    "phone": "01712762020",
+    "Website": "https://www.mkc.edu.bd"
+  },
+  {
+    "id": 10,
+    "collegeName": " New Model Degree College",
+    "seats": 80,
+    "address": "Kalabagan, Dhaka-1207",
+    "phone": "01309108250",
+    "Website": "https://newmodelcollege.edu.bd/home"
+  },
+  {
+    "id": 11,
+    "collegeName": " Habibullah Bahar College",
+    "seats": 80,
+    "address": "Shantinagar, Dhaka-1000",
+    "phone": "88022222223378",
+    "Website": "https://hbuc.edu.bd/"
+  },
+  {
+    "id": 12,
+    "collegeName": " Mirpur College",
+    "seats": 80,
+    "address": "Mirpur, Dhaka-1216",
+    "phone": "01959-447099",
+    "Website": "https://www.mirpurcollege.edu.bd/"
+  },
+  {
+    "id": 13,
+    "collegeName": " Siddheswari College",
+    "seats": 80,
+    "address": "Moghbazar, Dhaka-1207",
+    "phone": "02-58313553",
+    "Website": "http://www.scd.edu.bd/"
+  },
+  {
+    "id": 14,
+    "collegeName": " Uttara Institute of Business & Technology (UIBT)",
+    "seats": 80,
+    "address": "Uttara, Dhaka-1230",
+    "phone": "01837525339",
+    "Website": "http://www.uibt.edu.bd/"
+  },
+  {
+    "id": 15,
+    "collegeName": " Institute of Science Trade & Technology (ISTT)",
+    "seats": 80,
+    "address": "Mirpur, Dhaka-1216",
+    "phone": "01711-818474",
+    "Website": "https://www.istt.edu.bd/"
+  },
+  {
+    "id": 16,
+    "collegeName": " Ideal Institute of Business & Science (IIBS)",
+    "seats": 80,
+    "address": "Mirpur, Dhaka-1216",
+    "phone": "01773-213856",
+    "Website": "http://iibsnu.rf.gd/"
+  },
+  {
+    "id": 17,
+    "collegeName": " Ahsanullah Institute of Information and Communication Technology(AIICT)",
+    "seats": 80,
+    "address": "Mirpur, Dhaka-1216",
+    "phone": " 01787-658138",
+    "Website": "https://aiict.edu.bd/"
+  },
+  {
+    "id": 18,
+    "collegeName": " Daffodil Institute of IT (DIIT)",
+    "seats": 80,
+    "address": "Kalabagan, Dhaka-1207",
+    "phone": "01847-140188 ",
+    "Website": "https://diit.edu.bd/"
+  },
+  {
+    "id": 19,
+    "collegeName": " United College of Aviation Science and Management (UCASM)",
+    "seats": 80,
+    "address": "Uttara, Dhaka-1230",
+    "phone": " 02-7911831",
+    "Website": "https://www.uca.edu.bd/"
+  },
+  {
+    "id": 20,
+    "collegeName": "Bangladesh Institute of Science & Technology (BIST)",
+    "seats": 80,
+    "address": "Shantinagar, Dhaka-1000",
+    "phone": "01626-217733",
+    "Website": "https://www.bist.ac.bd/"
+  },
+  {
+    "id": 21,
+    "collegeName": "Eminence College",
+    "seats": 40,
+    "address": "Panthapath, Dhaka 1215",
+    "phone": "  01713-493274",
+    "Website": "https://eminence.edu.bd/"
+  },
+  {
+    "id": 22,
+    "collegeName": "National Institute of Science & Technology (NIST)",
+    "seats": 40,
+    "address": "Panthapath, Dhaka 1215",
+    "phone": "01713-493196",
+    "Website": "https://nist.edu.bd/"
+   }
 ]
