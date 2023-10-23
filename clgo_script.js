@@ -15,7 +15,7 @@ http.onload = function () {
       <td class="name ancorTag">${i.collegeName}</td>
       <td class="name ancorTag">${i.seats}</td>
       <td class="name ancorTag">${i.address}</td>
-      <td><a href="${i.link}" class="text-decoration-none ancorTag">Website</a></td>
+      <td><a href="${i.Website}" class="text-decoration-none ancorTag">Website</a></td>
     </tr>
              `;
     }
