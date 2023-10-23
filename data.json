@@ -9,14 +9,6 @@
     "link": "link"
   },
   {
-    "id": 1,
-    "collegeName": "Ideal College",
-    "seats":50,
-    "address": "65 Central Road, Dhanmondi, Dhaka-1205",
-    "phone": "01912334234",
-    "link": "link"
-  },
-  {
     "id": 2,
     "collegeName": "Dhaka City College",
     "seats":120,
