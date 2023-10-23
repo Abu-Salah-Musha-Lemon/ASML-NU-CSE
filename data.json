@@ -49,11 +49,11 @@
   },
   {
     "id": 7,
-    "collegeName": " Shaikh Burhanuddin Post Graduate College",
+    "collegeName": "Northern College Bangladesh (NCB)",
     "seats": 80,
-    "address": "Nazimuddin Road, Dhaka-1100",
-    "phone": "02-57300525",
-    "Website": "https://www.sbpgc.edu.bd/index.php?option=com_content&view=article&id=177&Itemid=100"
+    "address": "Q96C+FQM, Asad Gate Road, Dhaka 1207",
+    "phone": " 01713-209185",
+    "Website": "https://ncb.edu.bd/cse/"
   },
   {
     "id": 8,
@@ -175,4 +175,22 @@
     "phone": "01713-493196",
     "Website": "https://nist.edu.bd/"
    }
+  ,
+  {
+    "id": 23,
+    "collegeName": "Sher-e-Bangla Nagar Adarsha Mohila College",
+    "seats": 40,
+    "address": "Panthapath, Dhaka 1215",
+    "phone": "01552-495686",
+    "Website": "https://www.sbamc.edu.bd/#/home"
+   }
+   ,
+   {
+     "id": 24,
+     "collegeName": "Dhaka Mohanogor Mohila College",
+     "seats": 40,
+     "address": "6 No Suvash Bose Avenue, Dhaka 1100",
+     "phone": " 02-47112554",
+     "Website": "https://www.dmmc.edu.bd/"
+    }
 ]
