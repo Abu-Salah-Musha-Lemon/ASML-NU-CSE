@@ -1,9 +1,14 @@
-<div id="header"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+	<link rel="website icon" type="image/png" href="./nu-cse.png">
+</head>
 
-<body>
+<body class="bg-color">
 
 	<div id="navigation"></div>
-	<div class="container my-4 ">
+	<div class="container-fluid">
+		<div class="container f_color bg-white p-4 my-2 rounded ">
 		<!-- 1st year  -->
 		<div class="firstYear"></div>
 		<div id="accordion mt-2">
@@ -791,17 +796,17 @@
 
 		</div>
 		<!-- end  -->
+	</div>	
 	</div>
+
 	<div id="footer"></div>
-	<div id="script"></div>
-	<script src="subject.js"></script>
 
 	<script>
 		// Fetch and inject component content using fetch or AJAX
-		fetch('header.html')
+		fetch('head.html')
 			.then(response => response.text())
 			.then(content => {
-				document.getElementById('header').innerHTML = content;
+				document.getElementById('head').innerHTML = content;
 			});
 		fetch('nav.html')
 			.then(response => response.text())
@@ -813,11 +818,6 @@
 			.then(response => response.text())
 			.then(content => {
 				document.getElementById('footer').innerHTML = content;
-			});
-		fetch('script.html')
-			.then(response => response.text())
-			.then(content => {
-				document.getElementById('script').innerHTML = content;
 			});
     // Repeat for other components
 

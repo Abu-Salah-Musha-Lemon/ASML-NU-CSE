@@ -1,12 +1,12 @@
-<div id="header"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,800;1,300&family=Roboto+Condensed:ital@0;1&display=swap"
-  rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
+<head id="head">
+  <link rel="website icon" type="image/png" href="./nu-cse.png">
+  <!--it is use for fav icon. it is how in the browser tab -->
+</head>
+
+<body class="bg-color">
 
   <div id="navigation"></div>
 
@@ -25,11 +25,14 @@
   </div>
 
   <div class="container-fluid">
-    <div class="container f_color ">
+    <div class="container f_color container bg-white p-4 my-2 rounded ">
       <div class="my-2 about">
         <h3 class="arro fs-2 fw-bolder pt-2" id="about">About</h3>
         <p class=" fw-200 pb-4">
-          In 1990, National University in Bangladesh established the first-ever B.Sc. Honors program in Computer Science, marking a significant milestone as the inaugural department within the National University of Bangladesh.When the university was officially renamed, becoming the B.Sc in Computer Science and Engineering (CSE).
+          In 1990, National University in Bangladesh established the first-ever B.Sc. Honors program in Computer
+          Science, marking a significant milestone as the inaugural department within the National University of
+          Bangladesh.When the university was officially renamed, becoming the B.Sc in Computer Science and Engineering
+          (CSE).
 
         </p>
       </div>
@@ -37,14 +40,13 @@
   </div>
 
   <div id="footer"></div>
-  <div id="script"></div>
 
   <script>
     // Fetch and inject component content using fetch or AJAX
-    fetch('header.html')
+    fetch('head.html')
       .then(response => response.text())
       .then(content => {
-        document.getElementById('header').innerHTML = content;
+        document.getElementById('head').innerHTML = content;
       });
     fetch('nav.html')
       .then(response => response.text())
@@ -56,11 +58,7 @@
       .then(content => {
         document.getElementById('footer').innerHTML = content;
       });
-    fetch('script.html')
-      .then(response => response.text())
-      .then(content => {
-        document.getElementById('script').innerHTML = content;
-      });
+
     // Repeat for other components
   </script>
   <!-- Swiper JS -->
