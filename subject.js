@@ -8,12 +8,11 @@ fetch("subject.json") // Load the JSON file
     data.firstSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-        
+            <div class="subject my-2 shadow_subject mx-2 rounded ">
+              <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+              <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+              <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+              <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
             </div>
             `;
         subjectList.innerHTML = output;
@@ -29,10 +28,10 @@ fetch("subject.json") // Load the JSON file
     data.firstSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-           
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -50,13 +49,12 @@ fetch("subject.json") // Load the JSON file
     data.secoundSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-           
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -71,10 +69,10 @@ fetch("subject.json") // Load the JSON file
     data.secoundSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -92,12 +90,12 @@ fetch("subject.json") // Load the JSON file
     data.thirdSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link target="_blank" rel="noopener noreferrer"">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -112,10 +110,10 @@ fetch("subject.json") // Load the JSON file
     data.thirdSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -133,12 +131,12 @@ fetch("subject.json") // Load the JSON file
     data.fourthSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -153,10 +151,10 @@ fetch("subject.json") // Load the JSON file
     data.fourthSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -174,12 +172,12 @@ fetch("subject.json") // Load the JSON file
     data.fifthSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -194,11 +192,10 @@ fetch("subject.json") // Load the JSON file
     data.fifthSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-    
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -216,13 +213,12 @@ fetch("subject.json") // Load the JSON file
     data.sixthSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-            <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-           
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -237,11 +233,10 @@ fetch("subject.json") // Load the JSON file
     data.sixthSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-     
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
@@ -260,13 +255,12 @@ fetch("subject.json") // Load the JSON file
     data.seventhSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-                  <div class="subject my-2 shadow-sm ">
-                  <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-                  <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link"target="_blank" rel="noopener noreferrer" >Chapter QB</a>
-                  <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-                  <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-                 
-                  </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
                   `;
         subjectList.innerHTML = output;
       });
@@ -281,11 +275,10 @@ fetch("subject.json") // Load the JSON file
     data.seventhSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-            <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-            <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer" >Note</a>
-           
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -303,12 +296,12 @@ fetch("subject.json") // Load the JSON file
     data.eightSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
-            <div class="subject my-2 shadow-sm ">
-              <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light">${subject.subjectName}</a>
-              <a href="${subject.link01}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Chapter QB</a>
-              <a href="${subject.link02}" class="name btn button_link my-2 shadow-sm" target="_blank" rel="noopener noreferrer">Previous QB</a>
-              <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-            </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+        <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+      </div>
             `;
         subjectList.innerHTML = output;
       });
@@ -323,10 +316,10 @@ fetch("subject.json") // Load the JSON file
     data.eightSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
-      <div class="subject my-2 shadow-sm ">
-      <a href="#" class="name btn  my-2 shadow-sm fs-4 fw-light ">${subject.subjectName}</a>
-      <a href="${subject.link03}" class="name btn  my-2 shadow-sm button_link" target="_blank" rel="noopener noreferrer">Note</a>
-      </div>
+        <div class="subject my-2 shadow_subject mx-2 rounded ">
+          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
+          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
       `;
         subjectList.innerHTML = output;
       });
