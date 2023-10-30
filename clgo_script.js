@@ -12,12 +12,12 @@ http.onload = function () {
     for (const i of products) {
       output += `
 			<tr class="collegeName ">
-      <td class="name ancorTag">${i.id}</td>
-      <td class="name ancorTag">${i.collegeName}</td>
-      <td class="name ancorTag">${i.seats}</td>
-      <td class="name ancorTag">${i.address}</td>
-      <td><a href="${i.Website}" class="text-decoration-none ancorTag"  target="_blank" rel="noopener noreferrer">Website</a></td>
-    </tr>
+          <td class="name anchorTag">${i.id}</td>
+          <td class="name anchorTag">${i.collegeName}</td>
+          <td class="name anchorTag">${i.seats}</td>
+          <td class="name anchorTag">${i.address}</td>
+          <td><a href="${i.Website}" class="text-decoration-none anchorTag"  target="_blank" rel="noopener noreferrer">Website</a></td>
+      </tr>
              `;
     }
     document.querySelector(".date_item").innerHTML = output;
@@ -25,11 +25,4 @@ http.onload = function () {
 };
 
 
-            //  <div class="dataItem d-flex  justify-content-between border my-2 p-2 collegeName">
-            //  <div class="name ancorTag px-4 ">${i.collegeName}</div>
-            //  <div class="name ancorTag px-4">${i.seats}</div>
-            //  <div class="name ancorTag text-start">${i.address}</div>
 
-            // <a href="${i.link}" class="text-decoration-none ancorTag px-4">Website</a>
-            // </div>
-						// <tr>

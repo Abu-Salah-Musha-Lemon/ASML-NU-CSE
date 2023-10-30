@@ -38,16 +38,16 @@
 .nav_text {
   border-bottom: .4px solid rgba(255, 255, 255, .1);
 }
-
+#collegeList{
+  width: 100%;
+}
 .collegeName {
-  width: 95%;
-  /* background-color: rgb(229, 223, 235); */
   border-radius: 8px;
   padding-left: 10px;
   box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
 }
 
-.ancorTag {
+.anchorTag {
   font-weight: 600;
   color: black;
 
@@ -82,4 +82,9 @@ box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px
   width: 100%;
   border-radius: .01px;
   border-bottom: .01px solid rgba(255, 0, 0, 0.212);
+}
+@media (min-width:475px) {
+  .collegeList_th{
+    width: 10px;
+  }
 }
