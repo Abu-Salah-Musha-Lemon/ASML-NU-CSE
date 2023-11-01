@@ -100,20 +100,20 @@
 				{
 					"subjectName": "Data Structure",
 					"link01": "link",
-					"link02": "link02",
-					"link03": "link03"
+					"link02": "https://drive.google.com/drive/folders/1eTZpr1PpXVnO9-2L-LaBvpmIxz0_7sGN?usp=sharing",
+					"link03": "https://drive.google.com/drive/folders/1JEvN5WWfDNoMqqjgxiQtPjhcUIJwQSDN?usp=sharing"
 				},
 				{
 					"subjectName": "Object Oriented Programming",
 					"link01": "link",
-					"link02": "link02",
-					"link03": "link03"
+					"link02": "https://drive.google.com/drive/folders/189V55ltKsTcqpSlBgeo1nEPIgNgXwuQ4?usp=sharing",
+					"link03": "https://drive.google.com/drive/folders/1E_7TPF-Ihs0QnJT3Op08PN0wiQBCb6rN?usp=sharing"
 				},
 				{
 					"subjectName": "Computer Architecture ",
 					"link01": "https://drive.google.com/file/d/1_Y4bcYZQXmjWQq4BMCmHQJEFfwn2Af_o/view?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
+					"link02": "https://drive.google.com/drive/folders/1PanE6lyeqPwSXBpfFsaWCaVwM-X_WycX?usp=sharing",
+					"link03": "https://drive.google.com/drive/folders/14Uf5p9ODtWlwnlW03COtKhemud-7Qrt2?usp=sharing"
 				},
 				{
 					"subjectName": "Ordinary Differential Equation",
@@ -131,13 +131,13 @@
 			"lab": [
 				{
 					"subjectName": "Data Structure Lab ",
-					"link01": "link",
+					"link01": "https://drive.google.com/drive/folders/1vae7TtRGCBZbZjGiZW_EZOkDwFHFxaZQ?usp=sharing",
 					"link02": "link02",
 					"link03": "link03"
 				},
 				{
 					"subjectName": "Object Oriented Programming Lab",
-					"link01": "link",
+					"link01": "https://drive.google.com/drive/folders/1irnuXwgFRwocnxshi67VLupMUooiPWnF?usp=sharing",
 					"link02": "link02",
 					"link03": "link03"
 				}

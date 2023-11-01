@@ -2,7 +2,6 @@
 <html lang="en">
 <head id="head">
 <link rel="website icon" type="image/png" href="./nu-cse.png">
-</style>
 </head>
 
 <body class="bg-color">
@@ -41,6 +40,7 @@
   দ্রষ্টব্য: কলেজ এবং এর আসন সংখ্যা কম বা বেশি হতে পারে। -->
     </div>
   </article>
+
   <div class="container-fluid">
     <div class="container f_color bg-white p-4 my-2 rounded">
       <div class="mt-4 mb-0 collegeList">
@@ -50,7 +50,7 @@
             <div class="col-sm-3 col-md-6 col-lg-12 mb-3">
               <div class="card">
                 <div class="card-body">
-                  <table id="collegeList" class="" >
+                  <table id="collegeList" class="table table-striped" style="width: 100%;" >
                     <thead>
                       <tr>
                         <th class="collegeList_th">N/0</th>
@@ -75,7 +75,7 @@
 
   <div id="footer"></div>
   <script src="clgo_script.js"></script>
-  <!-- <script src="./script.js"></script> -->
+  <script src="./script.js"></script>
   <script>
     // Fetch and inject component content using fetch or AJAX
     fetch('head.html')
@@ -123,6 +123,7 @@
   <script>
     $(document).ready(function () {
       $('#collegeList').DataTable({
+        responsive: true,
         dom: 'Bfrtip',
         buttons: [
           'pdf', 'print'
