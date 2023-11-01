@@ -39,14 +39,14 @@ fetch("subject.json") // Load the JSON file
   });
 
 // ---------------------------------------------------------------
-// secound Semester
+// second Semester
 fetch("subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("secoundSemesterTheory");
     let output = "";
     // Iterate over the data and display subject names
-    data.secoundSemester.forEach(function (semester) {
+    data.secondSemester.forEach(function (semester) {
       semester.theory.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
@@ -66,7 +66,7 @@ fetch("subject.json") // Load the JSON file
     const subjectList = document.getElementById("secoundSemesterlab");
     let output = "";
     // Iterate over the data and display subject names
-    data.secoundSemester.forEach(function (semester) {
+    data.secundSemester.forEach(function (semester) {
       semester.lab.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
