@@ -66,7 +66,7 @@ a:hover {
   color: black;
 }
 .button_link:HOVER {
-  --bs-btn-hover-border-color:red;
+  --bs-btn-hover-border-color:#00bceb;
 }
 .subject_link {
   font-size: 20px;
