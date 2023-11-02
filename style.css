@@ -52,16 +52,35 @@ border-radius: 8px;
   color: black;
 
 }
+a:hover {
+  --bs-link-color-rgb:none;
+}
 .button_link {
   font-size: 20px;
   font-weight: 400;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+  cursor: auto;
   z-index: 1;
   text-decoration: none;
   color: black;
 }
-
+.button_link:HOVER {
+  --bs-btn-hover-border-color:red;
+}
+.subject_link {
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+  cursor: context-menu;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+.subject {
+  padding: 10px;
+}
 .shadow_subject{
   margin: 4px;
 /* border: 1px solid red; */
