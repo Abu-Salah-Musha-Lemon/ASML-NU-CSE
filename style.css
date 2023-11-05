@@ -102,8 +102,16 @@ box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px
   border-radius: .01px;
   border-bottom: .01px solid rgba(255, 0, 0, 0.212);
 }
-@media (min-width:475px) {
+
+.year_syllabus{
+  width: 175px;
+  margin: 10px 8px 10px 0px;
+}
+@media (max-width:475px) {
   .collegeList_th{
     width: 10px;
+  }
+  .year_syllabus{
+    width: 100%;
   }
 }
