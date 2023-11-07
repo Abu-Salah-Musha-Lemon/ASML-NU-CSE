@@ -107,6 +107,72 @@ box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px
   width: 175px;
   margin: 10px 8px 10px 0px;
 }
+.importent_link{
+text-decoration: none;
+
+}
+
+.importent_link:hover {
+  border-bottom:2px solid #00bceb;
+}
+
+/* data table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 475px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  th {
+    display: none;
+  }
+
+  tr {
+    margin-top: 20px;
+    
+  }
+
+  td {
+    /* display: block; */
+    text-align:left; /* You can adjust alignment as needed */
+  }
+
+  td::before {
+    /* content: attr(data-label); */
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .dataTables_filter>input{
+    width: 100px;
+  }
+  div.dataTables_wrapper div.dataTables_filter>input {
+    width: 100px;
+}}
+
+
 @media (max-width:475px) {
   .collegeList_th{
     width: 10px;
