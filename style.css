@@ -136,7 +136,11 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
+/* div.dataTables_wrapper div.dataTables_paginate {
+  margin:none;
+  white-space: none;
+  text-align: right
+} */
 @media screen and (max-width: 475px) {
   table, thead, tbody, th, td, tr {
     display: block;
@@ -165,12 +169,11 @@ tr:nth-child(even) {
   }
 }
 @media screen and (max-width: 320px) {
-  .dataTables_filter>input{
-    width: 100px;
-  }
+
   div.dataTables_wrapper div.dataTables_filter>input {
     width: 100px;
-}}
+}
+}
 
 
 @media (max-width:475px) {
