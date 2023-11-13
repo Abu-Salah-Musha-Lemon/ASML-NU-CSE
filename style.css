@@ -1,186 +1,218 @@
   @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,800;1,300&family=Roboto+Condensed:ital@0;1&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.container-fluid {
-  margin: 0 auto;
-  /* background-color: #DFDDD9; */
-}
+  .container-fluid {
+    margin: 0 auto;
+    /* background-color: #DFDDD9; */
+  }
 
-.dropdown-menu {
-  position: relative;
-}
+  .dropdown-menu {
+    position: relative;
+  }
 
-.dropdown-menu .submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
 
-}
+  }
 
-.dropdown-menu>li:hover .submenu {
-  display: block;
-}
-
-.dropdown-menu .submenu .last {
-  top: 6px;
-}
-
-.bg-color {
-  background-color: #dfddd94d;
-}
-
-.nav_text {
-  border-bottom: .4px solid rgba(255, 255, 255, .1);
-}
-#collegeList{
-  width: 100%;
-}
-.collegeName {
-border-radius: 8px;
-  /*   padding-left: 10px; */
-  box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
-}
-
-.anchorTag {
-  font-weight: 600;
-  color: black;
-
-}
-a:hover {
-  --bs-link-color-rgb:none;
-}
-.button_link {
-  font-size: 20px;
-  font-weight: 400;
-  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
-  cursor: auto;
-  z-index: 1;
-  text-decoration: none;
-  color: black;
-}
-.button_link:HOVER {
-  --bs-btn-hover-border-color:#00bceb;
-}
-.subject_link {
-  font-size: 20px;
-  font-weight: 400;
-  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
-  cursor: context-menu;
-  z-index: 1;
-  text-decoration: none;
-  color: black;
-}
-.subject {
-  padding: 10px;
-}
-.shadow_subject{
-  margin: 4px;
-/* border: 1px solid red; */
-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  box-shadow:  rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  -webkit-box-shadow:  rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  -moz-box-shadow:  rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-}
-.f_color{
-  background-color: rgba(0, 0, 0, .01);
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px -1px,rgba(0, 0, 0, 0.25) 1px 1px -1px 1px; */
-  box-shadow: 0.5px 2px 0.5px -1px rgba(0,0,0,0.29), -1px -1px 1px -1px rgba(0,0,0,0.29);
-  -webkit-box-shadow:  0.5px 2px 0.5px -1px rgba(0,0,0,0.29), -1px -1px 1px -1px rgba(0,0,0,0.29);
-  -moz-box-shadow:  0.5px 2px 0.5px -1px rgba(0,0,0,0.29), -1px -1px 1px -1px rgba(0,0,0,0.29);
-}
-.f_hover:hover{
-  background-color: rgba(0, 0, 0, 0.048);
-  width: 100%;
-  border-radius: .01px;
-  border-bottom: .01px solid rgba(255, 0, 0, 0.212);
-}
-
-.year_syllabus{
-  width: 175px;
-  margin: 10px 8px 10px 0px;
-}
-.importent_link{
-text-decoration: none;
-
-}
-
-.importent_link:hover {
-  border-bottom:2px solid #00bceb;
-}
-
-/* data table */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-/* div.dataTables_wrapper div.dataTables_paginate {
-  margin:none;
-  white-space: none;
-  text-align: right
-} */
-@media screen and (max-width: 475px) {
-  table, thead, tbody, th, td, tr {
+  .dropdown-menu>li:hover .submenu {
     display: block;
   }
 
-  th {
-    display: none;
+  .dropdown-menu .submenu .last {
+    top: 6px;
   }
 
-  tr {
-    margin-top: 20px;
-    
+  .bg-color {
+    background-color: #dfddd94d;
   }
 
-  td {
-    /* display: block; */
-    text-align:left; /* You can adjust alignment as needed */
+  .nav_text {
+    border-bottom: .4px solid rgba(255, 255, 255, .1);
   }
 
-  td::before {
-    /* content: attr(data-label); */
-    font-weight: bold;
-    display: inline-block;
-    width: 50%;
-    text-align: left;
+  .nav-link .active {
+    color: red;
+    background: red;
   }
-}
-@media screen and (max-width: 320px) {
 
-  div.dataTables_wrapper div.dataTables_filter>input {
-    width: 100px;
-}
-}
-
-
-@media (max-width:475px) {
-  .collegeList_th{
-    width: 10px;
-  }
-  .year_syllabus{
+  #collegeList {
     width: 100%;
   }
-}
+
+  .collegeName {
+    border-radius: 8px;
+    /*   padding-left: 10px; */
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
+  }
+
+  .anchorTag {
+    font-weight: 600;
+    color: black;
+
+  }
+
+  a:hover {
+    --bs-link-color-rgb: none;
+  }
+
+  .button_link {
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+    cursor: auto;
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+  }
+
+  .button_link:HOVER {
+    --bs-btn-hover-border-color: #00bceb;
+  }
+
+  .subject_link {
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+    cursor: context-menu;
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+  }
+
+  .subject {
+    padding: 10px;
+  }
+
+  .shadow_subject {
+    margin: 4px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    -webkit-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    -moz-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  }
+
+  .f_color {
+    background-color: rgba(0, 0, 0, .01);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px -1px,rgba(0, 0, 0, 0.25) 1px 1px -1px 1px; */
+    box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29);
+  }
+
+  .f_hover:hover {
+    background-color: rgba(0, 0, 0, 0.048);
+    width: 100%;
+    border-radius: .01px;
+    border-bottom: .01px solid rgba(255, 0, 0, 0.212);
+  }
+
+  .year_syllabus {
+    width: 175px;
+    margin: 10px 8px 10px 0px;
+  }
+
+  .importent_link {
+    text-decoration: none;
+
+  }
+
+  .importent_link:hover {
+    border-bottom: 2px solid #00bceb;
+  }
+
+  /* data table */
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  @media screen and (max-width: 475px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+
+    th {
+      display: none;
+    }
+
+    tr {
+      margin-top: 20px;
+
+    }
+
+    td {
+      /* display: block; */
+      text-align: left;
+      /* You can adjust alignment as needed */
+    }
+
+    td::before {
+      /* content: attr(data-label); */
+      font-weight: bold;
+      display: inline-block;
+      width: 50%;
+      text-align: left;
+    }
+  }
+
+  @media only screen and (min-width: 300px) {
+    #collegeList_paginate {
+      margin-left: -34px;
+      font-size: 15px;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter input {
+      margin-left: .5em;
+      display: inline-block;
+      width: 150px;
+    }
+
+    #collegeList_filter label {
+      /* width: 10px; */
+      margin-left: -16px;
+    }
+  }
+
+
+  @media (max-width:475px) {
+    .collegeList_th {
+      width: 10px;
+    }
+
+    .year_syllabus {
+      width: 100%;
+    }
+  }

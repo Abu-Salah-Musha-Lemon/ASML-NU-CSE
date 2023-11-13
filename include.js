@@ -1,3 +1,20 @@
+fetch('head.html')
+.then(response => response.text())
+.then(content => {
+  document.getElementById('head').innerHTML = content;
+});
+fetch('nav.html')
+.then(response => response.text())
+.then(content => {
+  document.getElementById('navigation').innerHTML = content;
+});
+fetch('footer.html')
+.then(response => response.text())
+.then(content => {
+  document.getElementById('footer').innerHTML = content;
+});
+
+
 // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 
