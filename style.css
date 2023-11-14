@@ -8,7 +8,6 @@
 
   .container-fluid {
     margin: 0 auto;
-    /* background-color: #DFDDD9; */
   }
 
   .dropdown-menu {
@@ -50,7 +49,6 @@
 
   .collegeName {
     border-radius: 8px;
-    /*   padding-left: 10px; */
     box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
   }
 
@@ -120,7 +118,6 @@
 
   .year_syllabus {
     width: 180px;
-    /* height: 40px; */
     margin: 2px 8px 2px 0px;
   }
 
@@ -154,7 +151,7 @@
     background-color: #f2f2f2;
   }
 
-  @media screen and (max-width: 475px) {
+  @media only screen and (max-width: 475px) {
 
     table,
     thead,
@@ -189,34 +186,41 @@
     }
   }
 
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 320px) {
     #collegeList_paginate {
       margin-left: -34px;
       font-size: 15px;
     }
-    .button_link{
-    width: 115px;
-    margin-bottom: 8px;
-    margin-top: 4px;}
-    div.dataTables_wrapper div.dataTables_filter input {
-      margin-left: .5em;
-      display: inline-block;
-      width: 150px;
+    .button_link {
+      width: 120px;
+      margin-bottom: 8px;
+      margin-top: 4px;
+      margin-left: -4px;
     }
-
-    #collegeList_filter label {
-      /* width: 10px; */
-      margin-left: -16px;
-    }
-  }
-
-
-  @media (max-width:475px) {
-    .collegeList_th {
-      width: 10px;
-    }
-
     .year_syllabus {
-      width: 100%;
+      width: 190px;
+      margin-left: -20px;
     }
+
   }
+  /* @media only screen and (min-width: 300px) {
+    #collegeList_paginate {
+      margin-left: -34px;
+      font-size: 15px;
+    }
+
+    .button_link {
+      width: 115px;
+      margin-bottom: 8px;
+      margin-top: 4px;
+    }
+    .year_syllabus {
+      width: 190px;
+      margin-left: -20px;
+    }
+
+  } */
+
+    .dataTables_filter input {
+      width: 120px;
+    }
