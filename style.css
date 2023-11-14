@@ -119,16 +119,17 @@
   }
 
   .year_syllabus {
-    width: 175px;
-    margin: 10px 8px 10px 0px;
+    width: 180px;
+    /* height: 40px; */
+    margin: 2px 8px 2px 0px;
   }
 
-  .importent_link {
+  .important_link {
     text-decoration: none;
 
   }
 
-  .importent_link:hover {
+  .important_link:hover {
     border-bottom: 2px solid #00bceb;
   }
 
@@ -188,12 +189,15 @@
     }
   }
 
-  @media only screen and (min-width: 300px) {
+  @media only screen and (max-width: 300px) {
     #collegeList_paginate {
       margin-left: -34px;
       font-size: 15px;
     }
-
+    .button_link{
+    width: 115px;
+    margin-bottom: 8px;
+    margin-top: 4px;}
     div.dataTables_wrapper div.dataTables_filter input {
       margin-left: .5em;
       display: inline-block;

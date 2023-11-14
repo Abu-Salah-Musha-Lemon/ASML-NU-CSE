@@ -1,14 +1,14 @@
-fetch('head.html')
+fetch('../inc/head.html')
 .then(response => response.text())
 .then(content => {
   document.getElementById('head').innerHTML = content;
 });
-fetch('nav.html')
+fetch('../inc/nav.html')
 .then(response => response.text())
 .then(content => {
   document.getElementById('navigation').innerHTML = content;
 });
-fetch('footer.html')
+fetch('../inc/footer.html')
 .then(response => response.text())
 .then(content => {
   document.getElementById('footer').innerHTML = content;

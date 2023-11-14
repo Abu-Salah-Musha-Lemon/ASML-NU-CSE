@@ -1,5 +1,5 @@
 // first Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("firstSemesterTheory");
@@ -19,7 +19,7 @@ fetch("subject.json") // Load the JSON file
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("firstSemesterLab");
@@ -29,7 +29,7 @@ fetch("subject.json") // Load the JSON file
       semester.lab.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-        <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+          <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
           <a href="${subject.link01}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
         </div>
       `;
@@ -40,7 +40,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // second Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("secoundSemesterTheory");
@@ -50,17 +50,17 @@ fetch("subject.json") // Load the JSON file
       semester.theory.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-        <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
-        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
-        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
-        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
-      </div>
+            <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+            <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
             `;
         subjectList.innerHTML = output;
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("secoundSemesterlab");
@@ -70,8 +70,8 @@ fetch("subject.json") // Load the JSON file
       semester.lab.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-          <a href="#" class="name btn  shadow_subject m-2  fs-4 fw-light py-2 ">${subject.subjectName}</a>
-          <a href="${subject.link01}" class="rounded ps-2 pe-2 button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
+            <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+            <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Notes</a>
         </div>
       `;
         subjectList.innerHTML = output;
@@ -81,7 +81,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // Third Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("thirdSemesterTheory");
@@ -91,17 +91,17 @@ fetch("subject.json") // Load the JSON file
       semester.theory.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-        <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
-        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
-        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
-        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
-      </div>
+            <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+            <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
             `;
         subjectList.innerHTML = output;
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("thirdSemesterlab");
@@ -122,7 +122,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // fourth Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fourthSemesterTheory");
@@ -132,17 +132,17 @@ fetch("subject.json") // Load the JSON file
       semester.theory.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-        <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
-        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
-        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
-        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
-      </div>
+            <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+            <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
             `;
         subjectList.innerHTML = output;
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fourthSemesterlab");
@@ -163,7 +163,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // five Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fifthSemesterTheory");
@@ -184,7 +184,7 @@ fetch("subject.json") // Load the JSON file
     });
   });
 
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fifthSemesterlab");
@@ -205,7 +205,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // six Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("sixthSemesterTheory");
@@ -225,7 +225,7 @@ fetch("subject.json") // Load the JSON file
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("sixthSemesterlab");
@@ -247,7 +247,7 @@ fetch("subject.json") // Load the JSON file
 // ---------------------------------------------------------------
 
 // seven Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("seventhSemesterTheory");
@@ -257,17 +257,17 @@ fetch("subject.json") // Load the JSON file
       semester.theory.forEach(function (subject) {
         output += `
         <div class="subject my-2 shadow_subject mx-2 rounded ">
-        <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
-        <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
-        <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
-        <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
-      </div>
+            <a href="#" class=" subject_link shadow_subject m-2  fs-4 fw-light py-2 shadow-none ">${subject.subjectName}</a>
+            <a href="${subject.link01}" class="name btn rounded  button_link "     target="_blank" rel="noopener noreferrer">Chapter QB</a>
+            <a href="${subject.link02}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Previous QB</a>
+            <a href="${subject.link03}" class="name btn rounded  button_link"     target="_blank" rel="noopener noreferrer">Notes</a>
+        </div>
                   `;
         subjectList.innerHTML = output;
       });
     });
   });
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("seventhSemesterlab");
@@ -288,7 +288,7 @@ fetch("subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // eight Semester
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("eighthSemesterTheory");
@@ -309,7 +309,7 @@ fetch("subject.json") // Load the JSON file
     });
   });
 
-fetch("subject.json") // Load the JSON file
+fetch("../json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("eighthSemesterlab");
