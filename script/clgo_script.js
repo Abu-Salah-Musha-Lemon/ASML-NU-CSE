@@ -1,6 +1,6 @@
 let http = new XMLHttpRequest();
 
-http.open("get", "../json/data.json", true);
+http.open("get", "./json/data.json", true);
 
 http.send();
 

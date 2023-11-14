@@ -1,5 +1,5 @@
 // first Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("firstSemesterTheory");
@@ -19,7 +19,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("firstSemesterLab");
@@ -40,7 +40,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // second Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("secoundSemesterTheory");
@@ -60,7 +60,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("secoundSemesterlab");
@@ -81,7 +81,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // Third Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("thirdSemesterTheory");
@@ -101,7 +101,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("thirdSemesterlab");
@@ -122,7 +122,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // fourth Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fourthSemesterTheory");
@@ -142,7 +142,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fourthSemesterlab");
@@ -163,7 +163,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // five Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fifthSemesterTheory");
@@ -184,7 +184,7 @@ fetch("../json/subject.json") // Load the JSON file
     });
   });
 
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("fifthSemesterlab");
@@ -205,7 +205,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // six Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("sixthSemesterTheory");
@@ -225,7 +225,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("sixthSemesterlab");
@@ -247,7 +247,7 @@ fetch("../json/subject.json") // Load the JSON file
 // ---------------------------------------------------------------
 
 // seven Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("seventhSemesterTheory");
@@ -267,7 +267,7 @@ fetch("../json/subject.json") // Load the JSON file
       });
     });
   });
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("seventhSemesterlab");
@@ -288,7 +288,7 @@ fetch("../json/subject.json") // Load the JSON file
 
 // ---------------------------------------------------------------
 // eight Semester
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("eighthSemesterTheory");
@@ -309,7 +309,7 @@ fetch("../json/subject.json") // Load the JSON file
     });
   });
 
-fetch("../json/subject.json") // Load the JSON file
+fetch("./json/subject.json") // Load the JSON file
   .then((response) => response.json()) // Parse the JSON data
   .then((data) => {
     const subjectList = document.getElementById("eighthSemesterlab");
