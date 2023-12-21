@@ -208,24 +208,16 @@
     }
 
   }
-  /* @media only screen and (min-width: 300px) {
-    #collegeList_paginate {
-      margin-left: -34px;
-      font-size: 15px;
-    }
+  .dataTables_filter input {
+    width: 120px;
+  }
 
-    .button_link {
-      width: 115px;
-      margin-bottom: 8px;
-      margin-top: 4px;
-    }
-    .year_syllabus {
-      width: 190px;
-      margin-left: -20px;
-    }
-
-  } */
-
-    .dataTables_filter input {
-      width: 120px;
-    }
+  .font-bcd{
+    font-family:Barlow+Condensed;
+    font-style: italic; 
+    font-weight: 500;
+  }
+  .font-me{
+    font-family: family=Merienda;
+    font-weight: 600;
+  }
