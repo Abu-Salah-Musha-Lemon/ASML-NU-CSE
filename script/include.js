@@ -1,3 +1,16 @@
+// this function work properly. Page active 
+document.addEventListener("DOMContentLoaded", function () {
+  const activePage = window.location.href;
+
+  const navLinks = document.querySelectorAll('.navbar-collapse .navbar-nav .nav-item a');
+
+  navLinks.forEach(link => {
+    if (link.href === activePage) {
+      link.classList.add('active');
+    }
+  });
+});
+
 fetch('./inc/head.html')
 .then(response => response.text())
 .then(content => {
@@ -52,15 +65,4 @@ document.onkeydown = (e) => {
 //   }
 // });
 
-// this function work properly. Page active 
-document.addEventListener("DOMContentLoaded", function () {
-  const activePage = window.location.href;
 
-  const navLinks = document.querySelectorAll('.navbar-collapse .navbar-nav .nav-item a');
-
-  navLinks.forEach(link => {
-    if (link.href === activePage) {
-      link.classList.add('active');
-    }
-  });
-});
