@@ -34,5 +34,14 @@
 	<a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">Design &
 		develope By ASM Lemon</a>
 </h6>
-
+ <script>
+	const currentLocation = location.href
+	const menuItem = document.querySelectorAll('a')
+	const menuLength = menuItem.length
+	for(let i=0; i<menuLength;i++){
+		if(menuItem[i].href=== currentLocation){
+			menuItem[i].className = 'active'
+		}
+	}
+ </script>
 </body>
