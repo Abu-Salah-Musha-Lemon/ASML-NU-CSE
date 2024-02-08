@@ -12,11 +12,11 @@ http.onload = function () {
     for (const i of products) {
       output += `
 			<tr class="collegeName ">
-          <td class="name anchorTag">${i.id}</td>
-          <td class="name anchorTag">${i.collegeName}</td>
-          <td class="name anchorTag">${i.seats}</td>
-          <td class="name anchorTag">${i.address}</td>
-          <td><a href="${i.Website}" class="text-decoration-none anchorTag"  target="_blank" rel="noopener noreferrer">Website</a></td>
+          <td class="name anchorTag fw-normal mx-2">${i.id}</td>
+          <td class="name fw-normal">${i.collegeName}</td>
+          <td class="name fw-normal">${i.seats}</td>
+          <td class="name fw-normal">${i.address}</td>
+          <td><a href="${i.Website}" class="text-decoration-none fw-normal text-black"  target="_blank" rel="noopener noreferrer">Website</a></td>
       </tr>
              `;
     }

@@ -47,6 +47,9 @@
   #collegeList {
     width: 100%;
   }
+  .sorting_asc{
+    text-align: center!important;
+  }
 
   .collegeName {
     border-radius: 8px;
@@ -54,7 +57,7 @@
   }
 
   .anchorTag {
-    font-weight: 600;
+    text-align: center;
     color: black;
 
   }
@@ -111,10 +114,7 @@
   }
 
   .f_hover:hover {
-    background-color: rgba(0, 0, 0, 0.048);
-    width: 100%;
-    border-radius: .01px;
-    border-bottom: .01px solid rgba(255, 0, 0, 0.212);
+    font-weight: 600;
   }
 
   .year_syllabus {
@@ -186,6 +186,22 @@
       text-align: left;
     }
   }
+  @media only screen and (max-width: 375px) {
+    .button_link {
+      width: 100%;
+      margin-bottom: 8px;
+      margin-top: 4px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .button_link {
+       margin-bottom: 8px;
+      margin-top: 4px;
+    }
+    .year_syllabus {
+      width: 100%;
+     }
+  }
 
   @media only screen and (max-width: 320px) {
     #collegeList_paginate {
@@ -197,13 +213,13 @@
   }
   
     .button_link {
-      width: 120px;
+      width: 100%;
       margin-bottom: 8px;
       margin-top: 4px;
       margin-left: -4px;
     }
     .year_syllabus {
-      width: 190px;
+      width: 100%;
       margin-left: -20px;
     }
 
