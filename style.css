@@ -154,6 +154,17 @@
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+  tbody, td, tfoot, th, thead, tr {
+    /* border-color:#00bceb !important;
+    border-style: solid  !important;
+    border-width: .001px !important; */
+    /* border-bottom: .01px solid #00bceb36 !important; */
+    background-color: #fff !important;
+}
+.dt-button buttons-print{
+  /* border: 1px solid #00bceb !important; */
+  border: none;
+}
 
   @media only screen and (max-width: 475px) {
 
