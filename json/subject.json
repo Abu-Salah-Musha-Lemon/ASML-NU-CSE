@@ -362,12 +362,24 @@
 					"link01": "https://drive.google.com/drive/folders/1wVbjNBlUI-NOly9XND-7Vo-AV0ipVdli?usp=sharing",
 					"link02": "https://drive.google.com/drive/folders/15mYdIqs3ZImTIqE6pYBNBALT54Wwk51S?usp=sharing",
 					"link03": "https://drive.google.com/drive/folders/1TusrushLxkF1OmRxRtJv3I9rseHodZgE?usp=sharing"
+				},
+				{
+					"subjectName": "System Analysis & Design",
+					"link01": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
+					"link02": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
+					"link03": "https://drive.google.com/drive/folders/13mPtdRKTk7nXfJovWtVFjvKawmHx5WVr?usp=sharing"
 				}
 			],
 			"lab": [
 				{
 					"subjectName": "Network and Information Security Lab ",
 					"link01": "https://drive.google.com/drive/folders/1xxpDcXEbSUA55JcTBEPnrfd7qKhO-RFh?usp=sharing",
+					"link02": "link02",
+					"link03": "link03"
+				},
+				{
+					"subjectName": "System Analysis & Design Lab ",
+					"link01": "https://drive.google.com/drive/folders/1a81CQbUQvchrlvklMl5FRdd_veK60s8M?usp=sharing",
 					"link02": "link02",
 					"link03": "link03"
 				}
