@@ -139,6 +139,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
   <!-- data table  -->
   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -151,83 +152,60 @@
   <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
   <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
   <script>
-    // $(document).ready(function () {
-    //   $('#collegeList').DataTable({
-    //     responsive: true,
-    //     dom: 'Bfrtip',
-    //     buttons: ['pdf', 'print',
-    //       {
-    //         extend: 'print',
-    //         text: 'print',
-    //         customize: function (doc) {
-    //           // Add custom title
-    //           doc.content[0].text = 'National University CSE College Lists';
-
-    //           // Add company logo
-    //           doc.content[1].image = 'data:image/png;base64,...'; // Replace with your logo's base64 data
-
-    //           // Add website link
-    //           doc.content[2].text = 'Visit our website:';
-    //           doc.content[2].link = 'http://www.example.com';
-    //           doc.content[2].color = '#007bff'; // Customize link color
-    //         }
-    //       }
-
-
-    //     ]
-    //   });
-    // });
-
     $(document).ready(function () {
       $('#collegeList').DataTable({
         dom: 'Bfrtip',
         buttons: [
-          // {
-          //   extend: 'pdf',
-          //   text: 'PDF',
-          //   customize: function (doc) {
-          //     // Customize the PDF document here
-
-          //     // Add custom title
-          //     doc.content[0].text = 'Custom PDF Title';
-
-          //     // Add company logo
-          //     doc.content[1].image = './image/nu-cse.png'; // Replace with your logo's base64 data
-
-          //     // Add website link
-          //     doc.content[2].text = 'Visit our website:';
-          //     doc.content[2].link = '<i class="bi bi-info-circle"></i>Portfolio <a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/"</a>';
-          //     doc.content[2].color = '#007bff'; // Customize link color
-          //   }
-          // },
+          {
+            extend: 'pdfHtml5',
+            text: 'PDF',
+            customize: function (doc) {
+              // Customize the PDF content
+              doc.content.splice(0, 0, {
+                text: 'National University\nCSE - College List\n\n',
+                style: 'header',
+                alignment: 'center'
+              });
+              doc.content.push({
+                text: '\nIf you have any suggestions, don\'t hesitate to contact me through Gmail.\n\n' +
+                  'Design & developed By Abu Salah Musha Lemon\n',
+                style: 'footer',
+                alignment: 'center'
+              });
+              doc.content.push({
+                text: 'Email: lemonahmed512@gmail.com',
+                link: 'mailto:lemonahmed512@gmail.com',
+                style: 'footer',
+                alignment: 'center',
+                color: 'blue',
+                decoration: 'underline'
+              });
+            }
+          },
           {
             extend: 'print',
             text: 'Print',
-            exportOptions: {
-              columns: ':visible',
-              stripHtml: false // Prevent stripping HTML tags
-            },
             customize: function (win) {
-              // Customize the print window layout
-              // $(win.document.body).prepend('<img src="https://github.com/Abu-Salah-Musha-Lemon/Personal-Portfolio/blob/main/image/asmLemon-144x144.png">'); // Replace with your logo's base64 data
-              $(win.document.body).prepend('<p style="text-align:right;font-size:12px;"><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/">Abu Salah Musha Lemon</a></p>');
-              $(win.document.body).prepend('<h2 style="text-align:center;font-size:14px;">CSE -College List</h2>');
-              $(win.document.body).prepend('<h1 style="text-align:center;font-size:18px;">National University</h1>');
-              $(win.document.body).find('table').addClass('display').css('font-size', '12px');
-              $(win.document.body).find('h1').css('text-align', 'center').css('font-size', '16px');
-              // Add details to the footer
-              let footer = `
-              <div class="text-center mt-2" style="font-size:16px;">
-                <p class="fst-italic">If you have any suggestions, don't hesitate to contact me through Gmail.</p>
-                <a class="text-dark fw-bold text-decoration-none" href="mailto:lemonahmed512@gmail.com"><i
-                    class="bi bi-envelope text-danger"></i>
-                  lemonahmed512@gmail.com</span>
-                </a><br />
-                <p class="fst-italic fw-bold text-info">Design & develope By Abu Salah Musha Lemon</p>
-              </div>
-                
-                `;
-              $(win.document.body).find('table').after(footer);
+              $(win.document.body)
+                .css('font-size', '12px')
+                .prepend(
+                  '<p style="text-align:right;font-size:12px;"><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/">Abu Salah Musha Lemon</a></p>'
+                )
+                .prepend('<h2 style="text-align:center;font-size:14px;">CSE - College List</h2>')
+                .prepend('<h1 style="text-align:center;font-size:18px;">National University</h1>');
+
+              $(win.document.body).find('table')
+                .addClass('display')
+                .css('font-size', '12px');
+
+              $(win.document.body).find('table').after(
+                '<div class="text-center mt-2" style="font-size:16px;">' +
+                '<p class="fst-italic">If you have any suggestions, don\'t hesitate to contact me through Gmail.</p>' +
+                '<a class="text-dark fw-bold text-decoration-none" href="mailto:lemonahmed512@gmail.com">' +
+                '<i class="bi bi-envelope text-danger"></i> lemonahmed512@gmail.com</span></a><br />' +
+                '<p class="fst-italic fw-bold text-info">Design & developed By Abu Salah Musha Lemon</p>' +
+                '</div>'
+              );
             }
           }
         ]
@@ -236,15 +214,8 @@
 
 
 
+
   </script>
-  <!-- <div class="text-center mt-2" style="font-size:16px;">
-    <p class="fst-italic">If you have any suggestions, don't hesitate to contact me through Gmail.</p>
-    <a class="text-dark fw-bold text-decoration-none" href="mailto:lemonahmed512@gmail.com"><i
-        class="bi bi-envelope text-danger"></i>
-      lemonahmed512@gmail.com</span>
-    </a><br />
-    <p class="fst-italic fw-bold text-info">Design & develope By Abu Salah Musha Lemon</p>
-  </div> -->
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-
+[
   {
     "id": 22,
     "collegeName": "",
@@ -6,8 +6,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 23,
     "collegeName": "",
@@ -15,8 +14,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 24,
     "collegeName": "",
@@ -24,8 +22,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 25,
     "collegeName": "",
@@ -33,8 +30,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 26,
     "collegeName": "",
@@ -42,8 +38,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 27,
     "collegeName": "",
@@ -51,8 +46,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 28,
     "collegeName": "",
@@ -60,8 +54,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 29,
     "collegeName": "",
@@ -69,8 +62,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 30,
     "collegeName": "",
@@ -78,8 +70,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 31,
     "collegeName": "",
@@ -87,8 +78,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 32,
     "collegeName": "",
@@ -96,8 +86,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 33,
     "collegeName": "",
@@ -105,8 +94,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 34,
     "collegeName": "",
@@ -114,8 +102,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 35,
     "collegeName": "",
@@ -123,8 +110,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 36,
     "collegeName": "",
@@ -132,8 +118,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 37,
     "collegeName": "",
@@ -141,8 +126,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 38,
     "collegeName": "",
@@ -150,8 +134,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 39,
     "collegeName": "",
@@ -159,8 +142,7 @@
     "address": "",
     "phone": "",
     "Website": ""
-  }
-  ,
+  },
   {
     "id": 40,
     "collegeName": "",
@@ -169,3 +151,4 @@
     "phone": "",
     "Website": ""
   }
+]

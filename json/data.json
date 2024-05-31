@@ -5,7 +5,7 @@
     "seats": 50,
     "address": "65 Central Road, Dhanmondi, Dhaka-1205",
     "phone": "01912334234",
-    "Website": "link"
+    "Website": "https://idealcollegedhanmondi.edu.bd/"
   },
   {
     "id": 2,
@@ -174,8 +174,7 @@
     "address": "Panthapath, Dhaka 1215",
     "phone": "01713-493196",
     "Website": "https://nist.edu.bd/"
-   }
-  ,
+  },
   {
     "id": 23,
     "collegeName": "Sher-e-Bangla Nagar Adarsha Mohila College",
@@ -183,32 +182,29 @@
     "address": "Panthapath, Dhaka 1215",
     "phone": "01552-495686",
     "Website": "https://www.sbamc.edu.bd/#/home"
-   }
-   ,
-   {
-     "id": 24,
-     "collegeName": "Dhaka Mohanogor Mohila College",
-     "seats": 40,
-     "address": "6 No Suvash Bose Avenue, Dhaka 1100",
-     "phone": " 02-47112554",
-     "Website": "https://www.dmmc.edu.bd/"
-    }
-   ,
-   {
-     "id": 25,
-     "collegeName": "Crown Institute of Business and Technology - CIBT",
-     "seats": 40,
-     "address": "Road # 21/A, House # 05, Nekunjo-02, Dhaka 1229",
-     "phone": "  01822-889900",
-     "Website": "null"
-    }
-   ,
-   {
-     "id": 26,
-     "collegeName": "",
-     "seats": 40,
-     "address": "",
-     "phone": "  ",
-     "Website": "null"
-    }
+  },
+  {
+    "id": 24,
+    "collegeName": "Dhaka Mohanogor Mohila College",
+    "seats": 40,
+    "address": "6 No Suvash Bose Avenue, Dhaka 1100",
+    "phone": " 02-47112554",
+    "Website": "https://www.dmmc.edu.bd/"
+  },
+  {
+    "id": 25,
+    "collegeName": "Crown Institute of Business and Technology - CIBT",
+    "seats": 40,
+    "address": "Road # 21/A, House # 05, Nekunjo-02, Dhaka 1229",
+    "phone": "  01822-889900",
+    "Website": "null"
+  },
+  {
+    "id": 26,
+    "collegeName": "",
+    "seats": 40,
+    "address": "",
+    "phone": "  ",
+    "Website": "null"
+  }
 ]

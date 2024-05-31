@@ -1,389 +1,388 @@
 {
-	"firstSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Structured Programming Language",
-					"link01": "https://drive.google.com/drive/folders/1VUZI7mstd724MX3dy423aulnb0xu9Bjg?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/18qxmsjAnZPv0NoWhklpHI0WlUkpO6H-O?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/13Q9Ifpc09D1mLSUAXpbQO6sP59sXS5sK?usp=sharing"
-				},
-				{
-					"subjectName": "Electrical and Electronic Circuit ",
-					"link01": "https://drive.google.com/drive/folders/18PQVoeo3QiK0e1kWZ8n8E0gHuj3Eks3m?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1K0t-meTJLL-7oBZckoqiiKZY0LLGoo29?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1PWxRDFOfmclc-O8oHg_hzX1Ltdb8hD3Z?usp=sharing"
-				},
-				{
-					"subjectName": "Calculus ",
-					"link01": "https://drive.google.com/drive/folders/1lNMDnhnCDc68caNa6IpK8d7NbK6kO1D7?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1Q5v0DcrYrWe2KxKtMpQHUkPE9_Gc85DT?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1D836qWsbEr-hS1f5oRMdm6d6tbXWRkSs?usp=sharing"
-				},
-				{
-					"subjectName": "Physics",
-					"link01": "https://drive.google.com/drive/folders/1cW8gSexlJVYgxMuevOPRnmphoyGLoE9S?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1fud9uvLq7HVP4JQHk34ZgVM7Q_NRQPkd?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1YirHnLjeFaFdZyN7_rDSZMy3OidydYRE?usp=sharing"
-				},
-				{
-					"subjectName": "English",
-					"link01": "https://drive.google.com/drive/folders/1h8r9srxRdmad3fwCbfQAjT4Kh4mwQiy1?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1G0i8NU8wxvtvbsTXBd_DiJlaW12cvoZ4?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1NoWt1Wq926UM00TX_5XbOf232R-tkkG2?usp=sharing"
-				}
-				
-			],
-			"lab": [
-				{
-					"subjectName": "Structured Programming Language Lab",
-					"link01": "https://drive.google.com/drive/folders/19fJqS1O5BCIQdeLmEouGe70qnWfnm_cL?usp=sharing",
-					"link02": "Null",
-					"link03": "Null"
-				},
-				{
-					"subjectName": "Electrical and Electronic Circuit Lab",
-					"link01": "https://drive.google.com/drive/folders/1azbWOmvJLdV9Yxcids7Lrd1cOqrvGo7S?usp=sharing",
-					"link02": "Null",
-					"link03": "Null"
-				}
-			]
-		}
-	],
-	"secondSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Digital Systems Design",
-					"link01": "https://drive.google.com/drive/folders/10DOoYgyfwKQvgst3aydxYjCkkGlENIbb?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/11gQ_oEgGpdUjgY3t2W-IhNE1ekdnDwQM?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1eGowM80n6Le_Zh2CMRBVsusPHzu6nMjA?usp=sharing"
-				},
-				{
-					"subjectName": "Discrete Mathematics",
-					"link01": "https://drive.google.com/drive/folders/1wT9bnSpAMltXPuHSnEvq0zFBkwaowOvJ?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1BKNYKVC8757nzTmFRlAJ-5Y1GgEQ9Pte?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1HXqgYHmtJtwBrKSSJE9wXFQqD_C90iqi?usp=sharing"
-				},
-				{
-					"subjectName": "Linear Algebra",
-					"link01": "https://drive.google.com/drive/folders/1K3lR2r7mQmeZou0eVjrVg7gNTo6uTnLe?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/15s0EkCQ3jpoTK__G9s-IjHSh2eZLVMT9?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1ABnZJ-B9MPIuAhavHYTlENuIF6bV299G?usp=sharing"
-				},
-				{
-					"subjectName": "Statistics and Probability",
-					"link01": "https://drive.google.com/drive/folders/1bNwb8GG6AOx9H8Vd3VumZ6WgFkDPn9c_?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1Br5tFCwXjbebqhTKsaarfjJibhW401lp?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1YsgR5CAiZebqhaklY7Eyq7pNpuU045NK?usp=sharing"
-				},
-				{
-					"subjectName": "History of the Emergence of Independent Bangladesh",
-					"link01": "https://drive.google.com/drive/folders/1N-yYxnhuUK5_CA68RL2SdqMFgjpbGfkd?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1dpq_30-SH3RjNsGM_mislBM-PkerObEy?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1_qB6rzIeW7ARi80SS71Qhl2TB3zdNp8l?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Digital Systems Lab ",
-					"link01": "https://drive.google.com/drive/folders/10XrtbqSL_ptdEUw8ypr4y0SlFvKlpcY3?usp=sharing",
-					"link02": "Null",
-					"link03": "Null"
-				}
-			]
-		}
-	],
-	"thirdSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Data Structure",
-					"link01": "https://drive.google.com/drive/folders/16eF200nCJ3giGAUOYSi1GqIY7P440Jxk?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1eTZpr1PpXVnO9-2L-LaBvpmIxz0_7sGN?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1JEvN5WWfDNoMqqjgxiQtPjhcUIJwQSDN?usp=sharing"
-				},
-				{
-					"subjectName": "Object Oriented Programming",
-					"link01": "https://drive.google.com/drive/folders/17dEOKAmHlwapueE5LcZF1uelJaTotbuk?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/189V55ltKsTcqpSlBgeo1nEPIgNgXwuQ4?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1E_7TPF-Ihs0QnJT3Op08PN0wiQBCb6rN?usp=sharing"
-				},
-				{
-					"subjectName": "Computer Architecture ",
-					"link01": "https://drive.google.com/file/d/1_Y4bcYZQXmjWQq4BMCmHQJEFfwn2Af_o/view?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1PanE6lyeqPwSXBpfFsaWCaVwM-X_WycX?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/14Uf5p9ODtWlwnlW03COtKhemud-7Qrt2?usp=sharing"
-				},
-				{
-					"subjectName": "Ordinary Differential Equation",
-					"link01": "https://drive.google.com/drive/folders/1vz5CA3fGApUvbgztlCq1o2tetmjxjuXs?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1lvW7b_aBeqndUAAbrkJYXSMx3lSsWEAX?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/10Cc1svSAjnOnvYwymPwRSklYr0_jl54T?usp=sharing"
-				},
-				{
-					"subjectName": "Fundamental of Business Studies",
-					"link01": "https://drive.google.com/drive/folders/1R7h1kBlK4uLIrtaX7N9QNDkMImWCeudX?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1ok0EYTcie4TzpYvdha6aFTEhZ9D7HV3s?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1FPGxLZpQ_WPukpqAZMFKkqSNNUb5uxWu?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Data Structure Lab ",
-					"link01": "https://drive.google.com/drive/folders/1vae7TtRGCBZbZjGiZW_EZOkDwFHFxaZQ?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Object Oriented Programming Lab",
-					"link01": "https://drive.google.com/drive/folders/1irnuXwgFRwocnxshi67VLupMUooiPWnF?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				}
-			]
-		}
-	],
-	"fourthSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Database Management System",
-					"link01": "https://drive.google.com/drive/folders/1IxQr3V94fKfa16nbWlp4juzxOXWzizpY?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1Ez3QfCknKBDPev9bYtBnclKkNYqa-ZxQ?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1v8TkrPWSN1dEPdTRSyV2YzOeofkpi3wn?usp=sharing"
-				},
-				{
-					"subjectName": "Microprocessor and Assembly Language ",
-					"link01": "https://drive.google.com/drive/folders/1__ReNke8UgmtAStp3vXhn4EpljFvxn9n?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/151vmV0Ydkdy65KRx75__j0qnSmJYRfmZ?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1K9-TqSPVa5sjKHFLXwHrHuK3rc_0k0W0?usp=sharing"
-				},
-				{
-					"subjectName": "Design and Analysis of Algorithms",
-					"link01": "https://drive.google.com/drive/folders/1HLjvZPR36nstj5z6DOXsYBALuIX4hoxk?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1KyoH4aNxIVZhfaEzZal8QZ3Opfa6ewhs?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/16s7JCmZQoQ1mwhJqomhRkyUioQ2-O1KE?usp=sharing"
-				},
-				{
-					"subjectName": "Numerical Analysis",
-					"link01": "https://drive.google.com/drive/folders/1VZ3bHhDvI2eX3BEEZcoWXprLW4CQVNR9?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1SgLn3cLTJXIyUeOfMB5h8bOxPMFWpymO?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/11_kKydtMSD5kLWVqoq12RxSdq8tlyc75?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Database Management System Lab",
-					"link01": "https://drive.google.com/drive/folders/1cAP38ydVNieUt8BfBK6M1ycKFUUsWImO?usp=sharing"
-				},
-				{
-					"subjectName": "Microprocessor and Assembly Language Lab",
-					"link01": "https://drive.google.com/drive/folders/1s_rV1BpBpfw4MsDdQNB1secECqqVYPGr?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Design and Analysis of Algorithms Lab",
-					"link01": "https://drive.google.com/drive/folders/1QepbiDKCZmiywqw1zasRC3NeeDJwdufM?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				}
-			]
-		}
-	],
-	"fifthSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Peripheral and Interfacing",
-					"link01": "https://drive.google.com/drive/folders/1R6GhG4nrhQNrkpsh-OmTGIPWsvgmJHxM?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1Urxqsc5wh6xYTSSylWeAGy92rWqwMrR-?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1q3ba5cdiQMW-RpZyARhK3vY9yNaGlfI4?usp=sharing"
-				},
-				{
-					"subjectName": "Data and Telecommunications",
-					"link01": "https://drive.google.com/drive/folders/1zwk8_JIbndLNmN6386Af-YTodBg8qAsN?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1tO1UOFQPxkKT__cDZ2fUJlF6zN-hQn7s?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1ucJzmAxdgKcA1eX5WlwOn3_dpzvxhQ84?usp=sharing"
-				},
-				{
-					"subjectName": "Operating System",
-					"link01": "https://drive.google.com/drive/folders/1_wKuBQpOJe3hv2uGRZVh3LgxAO2nNaUd?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1Yk4c6rimJACKbb4jWRN9YLfI7owTew2a?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1n73TMYJgbK0muY3aQX62OtSpvUqJlyWv?usp=sharing"
-				},
-				{
-					"subjectName": "Economics",
-					"link01": "https://drive.google.com/drive/folders/1CkVUVfroDrHIVPNkbNHdqo-3Aifurd3C?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1SAiVW7_WnB6AukkJLBx1elV_CW1TYRb-?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1X_T7X7zpV_zLZt0vtHYYFB_aJOl8htu7?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Peripheral and Interfacing Lab",
-					"link01": "https://drive.google.com/drive/folders/1wI8Fg0Vl9yypIGDHnER0GWlNPh6ggiwI?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Data and Telecommunications Lab ",
-					"link01": "https://drive.google.com/drive/folders/1Ixf9n2FvvCFX7k5Sol6-m9xJoGRRF-rl?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Operating System Lab ",
-					"link01": "https://drive.google.com/drive/folders/1dYQuNXK_LthYJmw1o8mQjkcT8zR9x9b6?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				}
-			]
-		}
-	],
-	"sixthSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Software Engineering ",
-					"link01": "https://drive.google.com/drive/folders/13Bhk9dQoW2P9iwPjNtKpW7rP1CXGxKAx?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1cRZFH4bHfZaZWVckV4tBw1kmSuNNyGsq?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1U7bzDjjOABF_XqTSjtIGUXDX9i9H4zKu?usp=sharing"
-				},
-				{
-					"subjectName": "Computer Networking",
-					"link01": "https://drive.google.com/drive/folders/15HbDuhCD3fGB_yDV9eihsCzdMgEsws0r?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/14tJIbnnVy6ngKggCUejKYo6d9WkuWCD-?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1KbeuiZ0EpYD4rVDD8h82T4tkLL7PL9kF?usp=sharing"
-				},
-				{
-					"subjectName": "Embedded System Programming ",
-					"link01": "https://drive.google.com/drive/folders/1uhvETdkWkQfZlnyM4JaTkPr-FZqQ5qpj?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/12Nv1v0JJb1oIVQCVFaAFOx4HpgxQmWYF?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1bN9x5fc0DH4fKl0eNcFm0nSkCVaqqVWH?usp=sharing"
-				},
-				{
-					"subjectName": "Theory of Computation",
-					"link01": "https://drive.google.com/drive/folders/1L9legMbYhndb3MZNtm3nagHiOxZzvfMR?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1LLn9diih1JbhiMWGpcvOJYhZxdVU4uZd?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1z_FbodxuiU_s14alb3tjwxCWBoNowpI6?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Software Engineering Lab",
-					"link01": "https://drive.google.com/drive/folders/1fc5j-WA_dxOEtFQXuvYmscVOEyc3bjxX?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Computer Networking Lab",
-					"link01": "https://drive.google.com/drive/folders/1tK-YyY6vpowYrSgTV3xBvuLBT87WHMgh?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Embedded System Programming Lab ",
-					"link01": "https://drive.google.com/drive/folders/1rXOY8qinOF9saukWlyo-RKoGXzoYHWF2?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				}
-			]
-		}
-	],
-	"seventhSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Artificial Intelligence",
-					"link01": "https://drive.google.com/drive/folders/1cbPpyKl5dyseZWJroL22ElyScM_Wr71p?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1b0WrKD2ilwLcdCQtUMysv5oGWvVorv8T?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1Z0UXNCz5_2vwfgOMSsj0nhKLVBREyHA2?usp=sharing"
-				},
-				{
-					"subjectName": "Compiler Design and Construction",
-					"link01": "https://drive.google.com/drive/folders/1yo43yjjoT5y0AiL49Ofcoe5yVyYf_aHr?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1s17MkZpUMB10JLXgDvRvZVc2whvN7QLu?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1L-9XoEbyTioZFtedQ70UKehuxokRhgwB?usp=sharing"
-				},
-				{
-					"subjectName": "Computer Graphics",
-					"link01": "https://drive.google.com/drive/folders/1f4AdErBK6kdw8TZzSv-Sr1fRQNSh4FVG?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1MZOEUCQ3iAg-aodATU5seEc8-r9Papoc?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1yF01CCMNHBr6TnxcbdXg_0wdUd-taDcF?usp=sharing"
-				},
-				{
-					"subjectName": "E-Commerce and Web Engineering",
-					"link01": "https://drive.google.com/drive/folders/1ARL0q3gfjC9E-7_tPHpLhtUHZ_fBoiD7?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1C0Dq-azyDoIp8U0Hy-jKir6-cER6-Wov?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1W2qPyECGQ09FolwE_u9mPZxwJQWmRyH-?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Artificial Intelligence Lab",
-					"link01": "https://drive.google.com/drive/folders/1m0ePO2RDT3QKZoA35lceOvN6t9sIBL0M?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Compiler Design and Construction Lab",
-					"link01": "https://drive.google.com/drive/folders/1lFno7HIAee7g7kRDUabxC-yJC5tmwJeo?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "Computer Graphics Lab",
-					"link01": "https://drive.google.com/drive/folders/1KOagDo56JrjEovLk7Q24mhr3AEFKbst8?usp=sharing",
-					"link02": "Null",
-					"link03": "Null"
-				},
-				{
-					"subjectName": "E-Commerce and Web Engineering Lab",
-					"link01": "https://drive.google.com/drive/folders/1_CX1I9N6LckzxVsFWL0RgQqYphqMOXvH?usp=sharing",
-					"link02": "Null",
-					"link03": "Null"
-				}
-			]
-		}
-	],
-	"eightSemester": [
-		{
-			"theory": [
-				{
-					"subjectName": "Network and Information Security",
-					"link01": "https://drive.google.com/drive/folders/1hdzmYvQQQyDkCwyRw15JfPnGMO6QvAnq?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1DwkhDEYYNy4aXDNg0QRy7VC3DTM7DGtg?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1B-Lb6uuLg8iJ4RpmAiViNylPT_KmZsTn?usp=sharing"
-				},
-				{
-					"subjectName": "Information System Management",
-					"link01": "https://drive.google.com/drive/folders/1wVbjNBlUI-NOly9XND-7Vo-AV0ipVdli?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/15mYdIqs3ZImTIqE6pYBNBALT54Wwk51S?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/1TusrushLxkF1OmRxRtJv3I9rseHodZgE?usp=sharing"
-				},
-				{
-					"subjectName": "System Analysis & Design",
-					"link01": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
-					"link02": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
-					"link03": "https://drive.google.com/drive/folders/13mPtdRKTk7nXfJovWtVFjvKawmHx5WVr?usp=sharing"
-				}
-			],
-			"lab": [
-				{
-					"subjectName": "Network and Information Security Lab ",
-					"link01": "https://drive.google.com/drive/folders/1xxpDcXEbSUA55JcTBEPnrfd7qKhO-RFh?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				},
-				{
-					"subjectName": "System Analysis & Design Lab ",
-					"link01": "https://drive.google.com/drive/folders/1a81CQbUQvchrlvklMl5FRdd_veK60s8M?usp=sharing",
-					"link02": "link02",
-					"link03": "link03"
-				}
-			]
-		}
-	]
+  "firstSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Structured Programming Language",
+          "link01": "https://drive.google.com/drive/folders/1VUZI7mstd724MX3dy423aulnb0xu9Bjg?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/18qxmsjAnZPv0NoWhklpHI0WlUkpO6H-O?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/13Q9Ifpc09D1mLSUAXpbQO6sP59sXS5sK?usp=sharing"
+        },
+        {
+          "subjectName": "Electrical and Electronic Circuit ",
+          "link01": "https://drive.google.com/drive/folders/18PQVoeo3QiK0e1kWZ8n8E0gHuj3Eks3m?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1K0t-meTJLL-7oBZckoqiiKZY0LLGoo29?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1PWxRDFOfmclc-O8oHg_hzX1Ltdb8hD3Z?usp=sharing"
+        },
+        {
+          "subjectName": "Calculus ",
+          "link01": "https://drive.google.com/drive/folders/1lNMDnhnCDc68caNa6IpK8d7NbK6kO1D7?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1Q5v0DcrYrWe2KxKtMpQHUkPE9_Gc85DT?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1D836qWsbEr-hS1f5oRMdm6d6tbXWRkSs?usp=sharing"
+        },
+        {
+          "subjectName": "Physics",
+          "link01": "https://drive.google.com/drive/folders/1cW8gSexlJVYgxMuevOPRnmphoyGLoE9S?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1fud9uvLq7HVP4JQHk34ZgVM7Q_NRQPkd?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1YirHnLjeFaFdZyN7_rDSZMy3OidydYRE?usp=sharing"
+        },
+        {
+          "subjectName": "English",
+          "link01": "https://drive.google.com/drive/folders/1h8r9srxRdmad3fwCbfQAjT4Kh4mwQiy1?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1G0i8NU8wxvtvbsTXBd_DiJlaW12cvoZ4?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1NoWt1Wq926UM00TX_5XbOf232R-tkkG2?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Structured Programming Language Lab",
+          "link01": "https://drive.google.com/drive/folders/19fJqS1O5BCIQdeLmEouGe70qnWfnm_cL?usp=sharing",
+          "link02": "Null",
+          "link03": "Null"
+        },
+        {
+          "subjectName": "Electrical and Electronic Circuit Lab",
+          "link01": "https://drive.google.com/drive/folders/1azbWOmvJLdV9Yxcids7Lrd1cOqrvGo7S?usp=sharing",
+          "link02": "Null",
+          "link03": "Null"
+        }
+      ]
+    }
+  ],
+  "secondSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Digital Systems Design",
+          "link01": "https://drive.google.com/drive/folders/10DOoYgyfwKQvgst3aydxYjCkkGlENIbb?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/11gQ_oEgGpdUjgY3t2W-IhNE1ekdnDwQM?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1eGowM80n6Le_Zh2CMRBVsusPHzu6nMjA?usp=sharing"
+        },
+        {
+          "subjectName": "Discrete Mathematics",
+          "link01": "https://drive.google.com/drive/folders/1wT9bnSpAMltXPuHSnEvq0zFBkwaowOvJ?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1BKNYKVC8757nzTmFRlAJ-5Y1GgEQ9Pte?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1HXqgYHmtJtwBrKSSJE9wXFQqD_C90iqi?usp=sharing"
+        },
+        {
+          "subjectName": "Linear Algebra",
+          "link01": "https://drive.google.com/drive/folders/1K3lR2r7mQmeZou0eVjrVg7gNTo6uTnLe?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/15s0EkCQ3jpoTK__G9s-IjHSh2eZLVMT9?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1ABnZJ-B9MPIuAhavHYTlENuIF6bV299G?usp=sharing"
+        },
+        {
+          "subjectName": "Statistics and Probability",
+          "link01": "https://drive.google.com/drive/folders/1bNwb8GG6AOx9H8Vd3VumZ6WgFkDPn9c_?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1Br5tFCwXjbebqhTKsaarfjJibhW401lp?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1YsgR5CAiZebqhaklY7Eyq7pNpuU045NK?usp=sharing"
+        },
+        {
+          "subjectName": "History of the Emergence of Independent Bangladesh",
+          "link01": "https://drive.google.com/drive/folders/1N-yYxnhuUK5_CA68RL2SdqMFgjpbGfkd?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1dpq_30-SH3RjNsGM_mislBM-PkerObEy?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1_qB6rzIeW7ARi80SS71Qhl2TB3zdNp8l?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Digital Systems Lab ",
+          "link01": "https://drive.google.com/drive/folders/10XrtbqSL_ptdEUw8ypr4y0SlFvKlpcY3?usp=sharing",
+          "link02": "Null",
+          "link03": "Null"
+        }
+      ]
+    }
+  ],
+  "thirdSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Data Structure",
+          "link01": "https://drive.google.com/drive/folders/16eF200nCJ3giGAUOYSi1GqIY7P440Jxk?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1eTZpr1PpXVnO9-2L-LaBvpmIxz0_7sGN?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1JEvN5WWfDNoMqqjgxiQtPjhcUIJwQSDN?usp=sharing"
+        },
+        {
+          "subjectName": "Object Oriented Programming",
+          "link01": "https://drive.google.com/drive/folders/17dEOKAmHlwapueE5LcZF1uelJaTotbuk?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/189V55ltKsTcqpSlBgeo1nEPIgNgXwuQ4?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1E_7TPF-Ihs0QnJT3Op08PN0wiQBCb6rN?usp=sharing"
+        },
+        {
+          "subjectName": "Computer Architecture ",
+          "link01": "https://drive.google.com/file/d/1_Y4bcYZQXmjWQq4BMCmHQJEFfwn2Af_o/view?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1PanE6lyeqPwSXBpfFsaWCaVwM-X_WycX?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/14Uf5p9ODtWlwnlW03COtKhemud-7Qrt2?usp=sharing"
+        },
+        {
+          "subjectName": "Ordinary Differential Equation",
+          "link01": "https://drive.google.com/drive/folders/1vz5CA3fGApUvbgztlCq1o2tetmjxjuXs?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1lvW7b_aBeqndUAAbrkJYXSMx3lSsWEAX?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/10Cc1svSAjnOnvYwymPwRSklYr0_jl54T?usp=sharing"
+        },
+        {
+          "subjectName": "Fundamental of Business Studies",
+          "link01": "https://drive.google.com/drive/folders/1R7h1kBlK4uLIrtaX7N9QNDkMImWCeudX?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1ok0EYTcie4TzpYvdha6aFTEhZ9D7HV3s?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1FPGxLZpQ_WPukpqAZMFKkqSNNUb5uxWu?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Data Structure Lab ",
+          "link01": "https://drive.google.com/drive/folders/1vae7TtRGCBZbZjGiZW_EZOkDwFHFxaZQ?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Object Oriented Programming Lab",
+          "link01": "https://drive.google.com/drive/folders/1irnuXwgFRwocnxshi67VLupMUooiPWnF?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        }
+      ]
+    }
+  ],
+  "fourthSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Database Management System",
+          "link01": "https://drive.google.com/drive/folders/1IxQr3V94fKfa16nbWlp4juzxOXWzizpY?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1Ez3QfCknKBDPev9bYtBnclKkNYqa-ZxQ?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1v8TkrPWSN1dEPdTRSyV2YzOeofkpi3wn?usp=sharing"
+        },
+        {
+          "subjectName": "Microprocessor and Assembly Language ",
+          "link01": "https://drive.google.com/drive/folders/1__ReNke8UgmtAStp3vXhn4EpljFvxn9n?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/151vmV0Ydkdy65KRx75__j0qnSmJYRfmZ?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1K9-TqSPVa5sjKHFLXwHrHuK3rc_0k0W0?usp=sharing"
+        },
+        {
+          "subjectName": "Design and Analysis of Algorithms",
+          "link01": "https://drive.google.com/drive/folders/1HLjvZPR36nstj5z6DOXsYBALuIX4hoxk?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1KyoH4aNxIVZhfaEzZal8QZ3Opfa6ewhs?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/16s7JCmZQoQ1mwhJqomhRkyUioQ2-O1KE?usp=sharing"
+        },
+        {
+          "subjectName": "Numerical Analysis",
+          "link01": "https://drive.google.com/drive/folders/1VZ3bHhDvI2eX3BEEZcoWXprLW4CQVNR9?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1SgLn3cLTJXIyUeOfMB5h8bOxPMFWpymO?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/11_kKydtMSD5kLWVqoq12RxSdq8tlyc75?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Database Management System Lab",
+          "link01": "https://drive.google.com/drive/folders/1cAP38ydVNieUt8BfBK6M1ycKFUUsWImO?usp=sharing"
+        },
+        {
+          "subjectName": "Microprocessor and Assembly Language Lab",
+          "link01": "https://drive.google.com/drive/folders/1s_rV1BpBpfw4MsDdQNB1secECqqVYPGr?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Design and Analysis of Algorithms Lab",
+          "link01": "https://drive.google.com/drive/folders/1QepbiDKCZmiywqw1zasRC3NeeDJwdufM?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        }
+      ]
+    }
+  ],
+  "fifthSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Peripheral and Interfacing",
+          "link01": "https://drive.google.com/drive/folders/1R6GhG4nrhQNrkpsh-OmTGIPWsvgmJHxM?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1Urxqsc5wh6xYTSSylWeAGy92rWqwMrR-?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1q3ba5cdiQMW-RpZyARhK3vY9yNaGlfI4?usp=sharing"
+        },
+        {
+          "subjectName": "Data and Telecommunications",
+          "link01": "https://drive.google.com/drive/folders/1zwk8_JIbndLNmN6386Af-YTodBg8qAsN?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1tO1UOFQPxkKT__cDZ2fUJlF6zN-hQn7s?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1ucJzmAxdgKcA1eX5WlwOn3_dpzvxhQ84?usp=sharing"
+        },
+        {
+          "subjectName": "Operating System",
+          "link01": "https://drive.google.com/drive/folders/1_wKuBQpOJe3hv2uGRZVh3LgxAO2nNaUd?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1Yk4c6rimJACKbb4jWRN9YLfI7owTew2a?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1n73TMYJgbK0muY3aQX62OtSpvUqJlyWv?usp=sharing"
+        },
+        {
+          "subjectName": "Economics",
+          "link01": "https://drive.google.com/drive/folders/1CkVUVfroDrHIVPNkbNHdqo-3Aifurd3C?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1SAiVW7_WnB6AukkJLBx1elV_CW1TYRb-?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1X_T7X7zpV_zLZt0vtHYYFB_aJOl8htu7?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Peripheral and Interfacing Lab",
+          "link01": "https://drive.google.com/drive/folders/1wI8Fg0Vl9yypIGDHnER0GWlNPh6ggiwI?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Data and Telecommunications Lab ",
+          "link01": "https://drive.google.com/drive/folders/1Ixf9n2FvvCFX7k5Sol6-m9xJoGRRF-rl?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Operating System Lab ",
+          "link01": "https://drive.google.com/drive/folders/1dYQuNXK_LthYJmw1o8mQjkcT8zR9x9b6?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        }
+      ]
+    }
+  ],
+  "sixthSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Software Engineering ",
+          "link01": "https://drive.google.com/drive/folders/13Bhk9dQoW2P9iwPjNtKpW7rP1CXGxKAx?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1cRZFH4bHfZaZWVckV4tBw1kmSuNNyGsq?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1U7bzDjjOABF_XqTSjtIGUXDX9i9H4zKu?usp=sharing"
+        },
+        {
+          "subjectName": "Computer Networking",
+          "link01": "https://drive.google.com/drive/folders/15HbDuhCD3fGB_yDV9eihsCzdMgEsws0r?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/14tJIbnnVy6ngKggCUejKYo6d9WkuWCD-?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1KbeuiZ0EpYD4rVDD8h82T4tkLL7PL9kF?usp=sharing"
+        },
+        {
+          "subjectName": "Embedded System Programming ",
+          "link01": "https://drive.google.com/drive/folders/1uhvETdkWkQfZlnyM4JaTkPr-FZqQ5qpj?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/12Nv1v0JJb1oIVQCVFaAFOx4HpgxQmWYF?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1bN9x5fc0DH4fKl0eNcFm0nSkCVaqqVWH?usp=sharing"
+        },
+        {
+          "subjectName": "Theory of Computation",
+          "link01": "https://drive.google.com/drive/folders/1L9legMbYhndb3MZNtm3nagHiOxZzvfMR?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1LLn9diih1JbhiMWGpcvOJYhZxdVU4uZd?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1z_FbodxuiU_s14alb3tjwxCWBoNowpI6?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Software Engineering Lab",
+          "link01": "https://drive.google.com/drive/folders/1fc5j-WA_dxOEtFQXuvYmscVOEyc3bjxX?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Computer Networking Lab",
+          "link01": "https://drive.google.com/drive/folders/1tK-YyY6vpowYrSgTV3xBvuLBT87WHMgh?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Embedded System Programming Lab ",
+          "link01": "https://drive.google.com/drive/folders/1rXOY8qinOF9saukWlyo-RKoGXzoYHWF2?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        }
+      ]
+    }
+  ],
+  "seventhSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Artificial Intelligence",
+          "link01": "https://drive.google.com/drive/folders/1cbPpyKl5dyseZWJroL22ElyScM_Wr71p?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1b0WrKD2ilwLcdCQtUMysv5oGWvVorv8T?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1Z0UXNCz5_2vwfgOMSsj0nhKLVBREyHA2?usp=sharing"
+        },
+        {
+          "subjectName": "Compiler Design and Construction",
+          "link01": "https://drive.google.com/drive/folders/1yo43yjjoT5y0AiL49Ofcoe5yVyYf_aHr?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1s17MkZpUMB10JLXgDvRvZVc2whvN7QLu?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1L-9XoEbyTioZFtedQ70UKehuxokRhgwB?usp=sharing"
+        },
+        {
+          "subjectName": "Computer Graphics",
+          "link01": "https://drive.google.com/drive/folders/1f4AdErBK6kdw8TZzSv-Sr1fRQNSh4FVG?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1MZOEUCQ3iAg-aodATU5seEc8-r9Papoc?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1yF01CCMNHBr6TnxcbdXg_0wdUd-taDcF?usp=sharing"
+        },
+        {
+          "subjectName": "E-Commerce and Web Engineering",
+          "link01": "https://drive.google.com/drive/folders/1ARL0q3gfjC9E-7_tPHpLhtUHZ_fBoiD7?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1C0Dq-azyDoIp8U0Hy-jKir6-cER6-Wov?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1W2qPyECGQ09FolwE_u9mPZxwJQWmRyH-?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Artificial Intelligence Lab",
+          "link01": "https://drive.google.com/drive/folders/1m0ePO2RDT3QKZoA35lceOvN6t9sIBL0M?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Compiler Design and Construction Lab",
+          "link01": "https://drive.google.com/drive/folders/1lFno7HIAee7g7kRDUabxC-yJC5tmwJeo?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "Computer Graphics Lab",
+          "link01": "https://drive.google.com/drive/folders/1KOagDo56JrjEovLk7Q24mhr3AEFKbst8?usp=sharing",
+          "link02": "Null",
+          "link03": "Null"
+        },
+        {
+          "subjectName": "E-Commerce and Web Engineering Lab",
+          "link01": "https://drive.google.com/drive/folders/1_CX1I9N6LckzxVsFWL0RgQqYphqMOXvH?usp=sharing",
+          "link02": "Null",
+          "link03": "Null"
+        }
+      ]
+    }
+  ],
+  "eightSemester": [
+    {
+      "theory": [
+        {
+          "subjectName": "Network and Information Security",
+          "link01": "https://drive.google.com/drive/folders/1hdzmYvQQQyDkCwyRw15JfPnGMO6QvAnq?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1DwkhDEYYNy4aXDNg0QRy7VC3DTM7DGtg?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1B-Lb6uuLg8iJ4RpmAiViNylPT_KmZsTn?usp=sharing"
+        },
+        {
+          "subjectName": "Information System Management",
+          "link01": "https://drive.google.com/drive/folders/1wVbjNBlUI-NOly9XND-7Vo-AV0ipVdli?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/15mYdIqs3ZImTIqE6pYBNBALT54Wwk51S?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/1TusrushLxkF1OmRxRtJv3I9rseHodZgE?usp=sharing"
+        },
+        {
+          "subjectName": "System Analysis & Design",
+          "link01": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
+          "link02": "https://drive.google.com/drive/folders/1HSqiaEHrDRpOvhg7Rg8x-dus2a9R-1vS?usp=sharing",
+          "link03": "https://drive.google.com/drive/folders/13mPtdRKTk7nXfJovWtVFjvKawmHx5WVr?usp=sharing"
+        }
+      ],
+      "lab": [
+        {
+          "subjectName": "Network and Information Security Lab ",
+          "link01": "https://drive.google.com/drive/folders/1xxpDcXEbSUA55JcTBEPnrfd7qKhO-RFh?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        },
+        {
+          "subjectName": "System Analysis & Design Lab ",
+          "link01": "https://drive.google.com/drive/folders/1a81CQbUQvchrlvklMl5FRdd_veK60s8M?usp=sharing",
+          "link02": "link02",
+          "link03": "link03"
+        }
+      ]
+    }
+  ]
 }

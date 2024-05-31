@@ -1,279 +1,304 @@
-  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,800;1,300&family=Roboto+Condensed:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;0,800;1,300&family=Roboto+Condensed:ital@0;1&display=swap");
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body::-webkit-scrollbar {
-    width: 6px;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.5s ease-in-out; /* Smooth transition */
-    
-  }
-  body::-webkit-scrollbar-track {
-    background-color: #b4e0eb7a;
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: #8edef1;
-    border-radius: 20%;
-    cursor: pointer;
-  }
-  /* body{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+body::-webkit-scrollbar-track {
+  background-color: #b4e0eb7a;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #8edef1;
+  border-radius: 20%;
+  cursor: pointer;
+}
+/* body{
     overflow: hidden;
   } */
-  
 
-  .container-fluid {
-    margin: 0 auto;
-  }
-  .navB{
-    border-bottom: 1px solid rgba(0, 0, 0, .14);
-    /* background-color: #FFFBF5; */
+.container-fluid {
+  margin: 0 auto;
+}
+.navB {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  /* background-color: #FFFBF5; */
+}
 
-  }
+.dropdown-menu {
+  position: relative;
+}
 
-  .dropdown-menu {
-    position: relative;
-  }
+.dropdown-menu .submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
 
-  .dropdown-menu .submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
+.dropdown-menu > li:hover .submenu {
+  display: block;
+}
 
-  }
+.dropdown-menu .submenu .last {
+  top: 6px;
+}
 
-  .dropdown-menu>li:hover .submenu {
+.bg-color {
+  background-color: #dfddd94d;
+}
+
+.nav_text {
+  border-bottom: 0.4px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-item > .nav-link .active {
+  color: red;
+  background: red;
+}
+
+#collegeList {
+  width: 100%;
+}
+.sorting_asc {
+  text-align: center !important;
+}
+
+.collegeName {
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
+}
+
+.anchorTag {
+  text-align: center;
+  color: black;
+}
+
+a:hover {
+  --bs-link-color-rgb: none;
+}
+
+.button_link {
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+  cursor: auto;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.button_link:hover {
+  --bs-btn-hover-border-color: #00bceb;
+}
+
+.subject_link {
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+  cursor: context-menu;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.subject {
+  padding: 10px;
+}
+
+.shadow_subject {
+  margin: 4px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  -webkit-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  -moz-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.f_color {
+  /* background-color: rgba(0, 0, 0, .01); */
+  background-color: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0 1px rgb(140 140 140/0.2);
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px -1px,rgba(0, 0, 0, 0.25) 1px 1px -1px 1px; */
+  /* box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
+  /* -webkit-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
+  /* -moz-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
+}
+
+.f_hover:hover {
+  font-weight: 600;
+}
+
+.year_syllabus {
+  width: 180px;
+  margin: 2px 8px 2px 0px;
+}
+
+.important_link {
+  text-decoration: none;
+}
+
+.important_link:hover {
+  border-bottom: 2px solid #00bceb;
+}
+.font-bcd {
+  font-family: Barlow + Condensed;
+  font-style: italic;
+  font-weight: 500;
+}
+.font-me {
+  font-family: family=Merienda;
+  font-weight: 600;
+}
+
+/* data table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  /* border-color:#00bceb !important;
+    border-style: solid  !important;
+    border-width: .001px !important; */
+  /* border-bottom: .01px solid #00bceb36 !important; */
+  background-color: #fff !important;
+}
+/* Custom styles for DataTables buttons */
+.dt-button {
+  /* background-color: #4CAF50 !important;  */
+  /* border: none !important;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; */
+  /* border: 1px solid #00bceb !important; */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dt-button:hover {
+  background-color: #45a049; 
+  /* transform: scale(1.05); */
+  border: 1px solid #00bceb !important; 
+}
+
+.dt-button:active {
+  background-color: #3e8e41; 
+  transform: scale(0.95); 
+}
+.dataTables_filter input {
+  width: 120px;
+  border: 1px solid #00bceb !important; 
+}
+.dataTables_filter label input {
+  outline: none;
+}
+
+@media only screen and (max-width: 475px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
     display: block;
   }
 
-  .dropdown-menu .submenu .last {
-    top: 6px;
+  th {
+    display: none;
   }
 
-  .bg-color {
-    background-color: #dfddd94d;
+  tr {
+    margin-top: 20px;
   }
 
-  .nav_text {
-    border-bottom: .4px solid rgba(255, 255, 255, .1);
-  }
-
-
-  .nav-item>.nav-link .active {
-    color: red;
-    background: red;
-  }
-
-  #collegeList {
-    width: 100%;
-  }
-  .sorting_asc{
-    text-align: center!important;
-  }
-
-  .collegeName {
-    border-radius: 8px;
-    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.02) 0px 2px 6px 2px;
-  }
-
-  .anchorTag {
-    text-align: center;
-    color: black;
-
-  }
-
-  a:hover {
-    --bs-link-color-rgb: none;
-  }
-
-  .button_link {
-    font-size: 20px;
-    font-weight: 400;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
-    cursor: auto;
-    z-index: 1;
-    text-decoration: none;
-    color: black;
-  }
-
-  .button_link:HOVER {
-    --bs-btn-hover-border-color: #00bceb;
-  }
-
-  .subject_link {
-    font-size: 20px;
-    font-weight: 400;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
-    cursor: context-menu;
-    z-index: 1;
-    text-decoration: none;
-    color: black;
-  }
-
-  .subject {
-    padding: 10px;
-  }
-
-  .shadow_subject {
-    margin: 4px;
-    /* border: 1px solid red; */
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-    -webkit-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-    -moz-box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  }
-
-  .f_color {
-    /* background-color: rgba(0, 0, 0, .01); */
-    background-color: #fff;
-    border-radius: .8rem;
-    box-shadow: 0 0 0 1px rgb(140 140 140/.2);
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 2px -1px,rgba(0, 0, 0, 0.25) 1px 1px -1px 1px; */
-    /* box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
-    /* -webkit-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
-    /* -moz-box-shadow: 0.5px 2px 0.5px -1px rgba(0, 0, 0, 0.29), -1px -1px 1px -1px rgba(0, 0, 0, 0.29); */
-  }
-
-  .f_hover:hover {
-    font-weight: 600;
-  }
-
-  .year_syllabus {
-    width: 180px;
-    margin: 2px 8px 2px 0px;
-  }
-
-  .important_link {
-    text-decoration: none;
-
-  }
-
-  .important_link:hover {
-    border-bottom: 2px solid #00bceb;
-  }
-
-  /* data table */
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-
-  th,
   td {
-    padding: 8px;
+    /* display: block; */
+    text-align: left;
+    /* You can adjust alignment as needed */
+  }
+
+  td::before {
+    /* content: attr(data-label); */
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
     text-align: left;
   }
-
-  th {
-    background-color: #f2f2f2;
-  }
-
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  tbody, td, tfoot, th, thead, tr {
-    /* border-color:#00bceb !important;
-    border-style: solid  !important;
-    border-width: .001px !important; */
-    /* border-bottom: .01px solid #00bceb36 !important; */
-    background-color: #fff !important;
 }
-.dt-button buttons-print{
-  /* border: 1px solid #00bceb !important; */
-  border: none;
+@media only screen and (max-width: 375px) {
+  .button_link {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 4px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .button_link {
+    margin-bottom: 8px;
+    margin-top: 4px;
+  }
+  .year_syllabus {
+    width: 100%;
+  }
 }
 
-  @media only screen and (max-width: 475px) {
-
-    table,
-    thead,
-    tbody,
-    th,
-    td,
-    tr {
-      display: block;
-    }
-
-    th {
-      display: none;
-    }
-
-    tr {
-      margin-top: 20px;
-
-    }
-
-    td {
-      /* display: block; */
-      text-align: left;
-      /* You can adjust alignment as needed */
-    }
-
-    td::before {
-      /* content: attr(data-label); */
-      font-weight: bold;
-      display: inline-block;
-      width: 50%;
-      text-align: left;
-    }
+@media only screen and (max-width: 320px) {
+  #collegeList_paginate {
+    margin-left: -34px;
+    font-size: 15px;
   }
-  @media only screen and (max-width: 375px) {
-    .button_link {
-      width: 100%;
-      margin-bottom: 8px;
-      margin-top: 4px;
-    }
-  }
-  @media only screen and (max-width: 425px) {
-    .button_link {
-       margin-bottom: 8px;
-      margin-top: 4px;
-    }
-    .year_syllabus {
-      width: 100%;
-     }
-  }
-
-  @media only screen and (max-width: 320px) {
-    #collegeList_paginate {
-      margin-left: -34px;
-      font-size: 15px;
-    }
   .dataTables_filter input {
     width: 150px !important;
   }
   
-    .button_link {
-      width: 100%;
-      margin-bottom: 8px;
-      margin-top: 4px;
-      margin-left: -4px;
-    }
-    .year_syllabus {
-      width: 100%;
-      margin-left: -20px;
-    }
-
+  .button_link {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    margin-left: -4px;
   }
-  .dataTables_filter input {
-    width: 120px;
+  .year_syllabus {
+    width: 100%;
+    margin-left: -20px;
   }
-  .dataTables_filter label input{
-    outline: none;
-  }
-
-  .font-bcd{
-    font-family:Barlow+Condensed;
-    font-style: italic; 
-    font-weight: 500;
-  }
-  .font-me{
-    font-family: family=Merienda;
-    font-weight: 600;
-  }
+}

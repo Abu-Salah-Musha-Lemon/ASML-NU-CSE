@@ -23,6 +23,3 @@ http.onload = function () {
     document.querySelector(".date_item").innerHTML = output;
   }
 };
-
-
-

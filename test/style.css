@@ -13,7 +13,7 @@ body {
   height: 100%;
 }
 body {
-  font-family: 'Satoshi variable', sans-serif;
+  font-family: "Satoshi variable", sans-serif;
   display: grid;
   place-items: center;
   background-color: #000;
@@ -60,20 +60,20 @@ body {
   color: #fff;
   text-decoration: none;
 }
-.card-footer{
+.card-footer {
   margin-top: auto;
   display: flex;
   align-items: center;
   column-gap: 8px;
   color: #fff;
 }
-.card-image{
+.card-image {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   overflow: hidden;
 }
-.card-image img{
+.card-image img {
   display: block;
   width: 100%;
 }

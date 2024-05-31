@@ -10,3 +10,43 @@
   <script src="map.js"></script>
 </body>
 </html>
+
+<script>
+    $(document).ready(function () {
+      $('#collegeList').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+          {
+            extend: 'print',
+            text: 'Print',
+            exportOptions: {
+              columns: ':visible',
+              stripHtml: false // Prevent stripping HTML tags
+            },
+            customize: function (win) {
+              // Customize the print window layout
+              // $(win.document.body).prepend('<img src="https://github.com/Abu-Salah-Musha-Lemon/Personal-Portfolio/blob/main/image/asmLemon-144x144.png">'); // Replace with your logo's base64 data
+              $(win.document.body).prepend('<p style="text-align:right;font-size:12px;"><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/">Abu Salah Musha Lemon</a></p>');
+              $(win.document.body).prepend('<h2 style="text-align:center;font-size:14px;">CSE -College List</h2>');
+              $(win.document.body).prepend('<h1 style="text-align:center;font-size:18px;">National University</h1>');
+              $(win.document.body).find('table').addClass('display').css('font-size', '12px');
+              $(win.document.body).find('h1').css('text-align', 'center').css('font-size', '16px');
+              // Add details to the footer
+              let footer = `
+              <div class="text-center mt-2" style="font-size:16px;">
+                <p class="fst-italic">If you have any suggestions, don't hesitate to contact me through Gmail.</p>
+                <a class="text-dark fw-bold text-decoration-none" href="mailto:lemonahmed512@gmail.com"><i
+                    class="bi bi-envelope text-danger"></i>
+                  lemonahmed512@gmail.com</span>
+                </a><br />
+                <p class="fst-italic fw-bold text-info">Design & develope By Abu Salah Musha Lemon</p>
+              </div>
+                
+                `;
+              $(win.document.body).find('table').after(footer);
+            }
+          }
+        ]
+      });
+      });
+</script>
