@@ -50,7 +50,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-color {
-  background-color: #dfddd94d;
+  /* background-color: #dfddd94d; */
+  background-color: #f4f2ee;
 }
 
 .nav_text {
