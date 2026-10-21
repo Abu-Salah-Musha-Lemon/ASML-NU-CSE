@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d52">
+  <meta name="description" content="Books, research materials and project paper examples for CSE students.">
+  <title>Digital Library | NU-CSE Student Hub</title>
+  <link rel="icon" type="image/png" href="image/nu-cse.png">
+  <script>
+    // Apply the saved/system theme before the stylesheet renders to avoid flashing.
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('nu-cse-theme'); } catch (_) {}
+      if (theme !== 'dark' && theme !== 'light') {
+        theme = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    }());
+  </script>
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+   <div class="container site-nav-inner">
+    <a class="navbar-brand brand" href="index.html"><img src="image/nu-logo.png" width="39" height="39" alt=""><span>NU<span class="brand-accent">–</span>CSE <small>Student Hub</small></span></a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to night mode" aria-pressed="false" title="Switch to night mode">
+        <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.3 15.8A8.5 8.5 0 0 1 8.2 3.7 8.5 8.5 0 1 0 20.3 15.8Z"/></svg>
+        <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <span class="theme-label">Night mode</span>
+      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="primaryNav">
+      <ul class="navbar-nav ms-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="year.html">Semester Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="collegelist.html">Colleges</a></li>
+        <li class="nav-item"><a class="nav-link" href="books.html">Library</a></li>
+        <li class="nav-item"><a class="nav-link" href="link.html">Important Links</a></li>
+      </ul>
+    </div>
+   </div>
+  </nav>
+</header>
+<main id="main" class="flex-grow-1"><section class="page-intro"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Digital library</span></nav><div class="eyebrow">LEARNING LIBRARY</div><h1>Books & research papers</h1><p>Browse a curated list of books, project examples and PDF references supplied by the community.</p></div></section>
+<section class="section-space compact-top library-section">
+  <div class="container">
+    <div class="info-strip"><strong>About previews:</strong> Documents are hosted by third-party owners on Google Drive. Some may require permission or may not support embedding. Use <strong>Open file</strong> if a preview does not appear. Respect authors’ copyrights.</div>
+    <div class="section-title-row"><h2>Explore documents</h2><span class="muted-text" id="bookCount">Loading library…</span></div>
+    <div class="library-toolbar" role="search" aria-label="Search and filter library">
+      <div class="library-search">
+        <label for="bookSearch" class="form-label">Search by document title</label>
+        <div class="search-field"><input id="bookSearch" type="search" class="form-control" placeholder="e.g. Linux, project, guidelines" autocomplete="off" aria-controls="bookList" disabled><button id="clearBookSearch" class="clear-search" type="button" hidden aria-label="Clear library search">Clear</button></div>
+      </div>
+      <div class="library-filter">
+        <label for="bookCategory" class="form-label">Material type</label>
+        <select id="bookCategory" class="form-select" aria-controls="bookList" disabled><option value="all">All materials</option><option value="book">Books</option><option value="project">Project examples</option><option value="guide">Guides &amp; instructions</option></select>
+      </div>
+      <div class="library-filter">
+        <label for="bookSort" class="form-label">Sort documents</label>
+        <select id="bookSort" class="form-select" aria-controls="bookList" disabled><option value="default">Original order</option><option value="title-asc">Title A–Z</option><option value="title-desc">Title Z–A</option></select>
+      </div>
+    </div>
+    <div class="library-results"><span id="librarySummary" class="muted-text" role="status" aria-live="polite"></span><button type="button" class="library-reset" id="resetBookFilters" hidden>Reset all filters</button></div>
+    <div id="bookList" class="row g-4" aria-label="Library documents"></div>
+    <div class="library-state"><div id="booksStatus" class="status-message" role="status" aria-live="polite">Loading library…</div><button id="retryLibrary" class="btn btn-outline-hub btn-sm" type="button" hidden>Try again</button></div>
+  </div>
+</section>
+</main>
+<dialog id="bookPreviewDialog" class="doc-dialog" aria-labelledby="previewDialogTitle" aria-describedby="previewDialogHelp">
+  <div class="preview-shell">
+    <div class="preview-dialog-header"><div class="preview-title-group"><span class="preview-kicker">DOCUMENT PREVIEW</span><h2 id="previewDialogTitle">Document preview</h2></div><button id="closeBookPreview" class="preview-close" type="button" aria-label="Close document preview"><span aria-hidden="true">×</span><span>Close</span></button></div>
+    <div class="preview-dialog-toolbar"><p id="previewDialogHelp">A Google Drive preview is shown below when sharing permissions allow it. If it is unavailable, use the full document link.</p><a class="btn btn-primary-hub btn-sm" id="previewOpenLink" target="_blank" rel="noopener noreferrer">Open file ↗</a></div>
+    <div id="previewFrameWrap" class="preview-frame-wrap"><div id="previewFrameStatus" class="preview-frame-status" role="status" aria-live="polite">Loading Google Drive preview…</div></div>
+  </div>
+</dialog>
+<footer class="site-footer mt-auto"><div class="container"><div class="row g-4 py-5">
+  <div class="col-lg-5"><a class="footer-name" href="index.html">NU–CSE Student Hub</a><p class="footer-muted mt-3 mb-2">Independent collection of CSE study materials and student resources for National University learners.</p><p class="small footer-muted mb-0">Unofficial resource website. Confirm academic notices, admissions and syllabus details through official NU sources.</p></div>
+  <div class="col-6 col-lg-3"><h2 class="footer-heading">Explore</h2><a href="year.html">Semester resources</a><a href="collegelist.html">College directory</a><a href="books.html">Digital library</a><a href="link.html">Official links</a></div>
+  <div class="col-6 col-lg-4"><h2 class="footer-heading">Contact & credits</h2><p class="footer-muted small mb-2">Original project by Abu Salah Musha Lemon.</p><a href="mailto:lemonahmed512@gmail.com">Email the maintainer</a><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/" target="_blank" rel="noopener noreferrer">Developer portfolio ↗</a></div>
+  </div><div class="footer-bottom">NU–CSE learning resources <span>•</span> Built for students</div></div></footer>
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="script/site.js"></script>
+<script src="script/bookList.js"></script>
+</body></html>

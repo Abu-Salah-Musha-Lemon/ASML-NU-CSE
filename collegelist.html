@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d52">
+  <meta name="description" content="Search the list of CSE colleges and listed seats.">
+  <title>College Directory | NU-CSE Student Hub</title>
+  <link rel="icon" type="image/png" href="image/nu-cse.png">
+  <script>
+    // Apply the saved/system theme before the stylesheet renders to avoid flashing.
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('nu-cse-theme'); } catch (_) {}
+      if (theme !== 'dark' && theme !== 'light') {
+        theme = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    }());
+  </script>
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+   <div class="container site-nav-inner">
+    <a class="navbar-brand brand" href="index.html"><img src="image/nu-logo.png" width="39" height="39" alt=""><span>NU<span class="brand-accent">–</span>CSE <small>Student Hub</small></span></a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to night mode" aria-pressed="false" title="Switch to night mode">
+        <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.3 15.8A8.5 8.5 0 0 1 8.2 3.7 8.5 8.5 0 1 0 20.3 15.8Z"/></svg>
+        <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <span class="theme-label">Night mode</span>
+      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="primaryNav">
+      <ul class="navbar-nav ms-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="year.html">Semester Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="collegelist.html">Colleges</a></li>
+        <li class="nav-item"><a class="nav-link" href="books.html">Library</a></li>
+        <li class="nav-item"><a class="nav-link" href="link.html">Important Links</a></li>
+      </ul>
+    </div>
+   </div>
+  </nav>
+</header>
+<main id="main" class="flex-grow-1"><section class="page-intro"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">College directory</span></nav><div class="eyebrow">COLLEGE DIRECTORY</div><h1>Explore CSE colleges</h1><p>Search and compare the institutions listed in the project's National University CSE college dataset.</p></div></section>
+<section class="section-space compact-top"><div class="container"><div class="info-strip"><strong>Before applying:</strong> College names, seat numbers, admission eligibility and websites may change. Always confirm details with the institution and National University.</div>
+<div class="directory-card"><div class="directory-heading"><div><h2>College directory</h2><p id="resultSummary" class="muted-text mb-0" aria-live="polite">Loading records…</p></div><div class="actions-inline"><button class="btn btn-outline-hub btn-sm" type="button" id="downloadCsv">↓ Download CSV</button><button class="btn btn-outline-hub btn-sm" type="button" id="printTable">Print / Save PDF</button></div></div><div id="exportStatus" class="export-status" role="status" aria-live="polite"></div>
+<div class="toolbar"><div class="search-wrap"><label for="collegeSearch" class="form-label">Search colleges, addresses or seats</label><div class="search-field"><input id="collegeSearch" type="search" class="form-control" placeholder="e.g. Dhaka, Ideal College, 120" autocomplete="off" aria-controls="collegeList"><button id="clearCollegeSearch" class="clear-search" type="button" hidden aria-label="Clear college search">Clear</button></div></div><div class="sort-wrap"><label for="collegeSort" class="form-label">Sort by</label><select id="collegeSort" class="form-select"><option value="id">Original order</option><option value="name">College name (A–Z)</option><option value="seats-desc">Seats (high–low)</option><option value="seats-asc">Seats (low–high)</option></select></div></div>
+<div class="table-responsive"><table id="collegeList" class="table college-table"><caption class="visually-hidden">National University CSE college records provided with this project</caption><thead><tr><th scope="col">#</th><th scope="col">College</th><th scope="col">Seats*</th><th scope="col">Location</th><th scope="col">Website</th></tr></thead><tbody id="collegeRows"><tr><td colspan="5">Loading directory…</td></tr></tbody></table></div>
+<div class="directory-bottom"><span id="rangeSummary" class="muted-text" aria-live="polite"></span><div class="d-flex gap-2"><button type="button" id="prevPage" class="btn btn-outline-hub btn-sm" disabled>← Previous</button><button type="button" id="nextPage" class="btn btn-outline-hub btn-sm" disabled>Next →</button></div></div>
+</div><p class="directory-note">* Seat counts are archived information from the uploaded project and are not independently verified. External links may change.</p></div></section>
+</main><footer class="site-footer mt-auto"><div class="container"><div class="row g-4 py-5">
+  <div class="col-lg-5"><a class="footer-name" href="index.html">NU–CSE Student Hub</a><p class="footer-muted mt-3 mb-2">Independent collection of CSE study materials and student resources for National University learners.</p><p class="small footer-muted mb-0">Unofficial resource website. Confirm academic notices, admissions and syllabus details through official NU sources.</p></div>
+  <div class="col-6 col-lg-3"><h2 class="footer-heading">Explore</h2><a href="year.html">Semester resources</a><a href="collegelist.html">College directory</a><a href="books.html">Digital library</a><a href="link.html">Official links</a></div>
+  <div class="col-6 col-lg-4"><h2 class="footer-heading">Contact & credits</h2><p class="footer-muted small mb-2">Original project by Abu Salah Musha Lemon.</p><a href="mailto:lemonahmed512@gmail.com">Email the maintainer</a><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/" target="_blank" rel="noopener noreferrer">Developer portfolio ↗</a></div>
+  </div><div class="footer-bottom">NU–CSE learning resources <span>•</span> Built for students</div></div></footer>
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="script/site.js"></script>
+<script src="script/clgo_script.js"></script>
+</body></html>

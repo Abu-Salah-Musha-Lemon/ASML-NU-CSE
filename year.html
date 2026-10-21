@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d52">
+  <meta name="description" content="Theory subjects, lab notes, question banks and syllabus by semester.">
+  <title>Semester Resources | NU-CSE Student Hub</title>
+  <link rel="icon" type="image/png" href="image/nu-cse.png">
+  <script>
+    // Apply the saved/system theme before the stylesheet renders to avoid flashing.
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('nu-cse-theme'); } catch (_) {}
+      if (theme !== 'dark' && theme !== 'light') {
+        theme = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    }());
+  </script>
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header sticky-top">
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+   <div class="container site-nav-inner">
+    <a class="navbar-brand brand" href="index.html"><img src="image/nu-logo.png" width="39" height="39" alt=""><span>NU<span class="brand-accent">–</span>CSE <small>Student Hub</small></span></a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to night mode" aria-pressed="false" title="Switch to night mode">
+        <svg class="theme-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.3 15.8A8.5 8.5 0 0 1 8.2 3.7 8.5 8.5 0 1 0 20.3 15.8Z"/></svg>
+        <svg class="theme-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <span class="theme-label">Night mode</span>
+      </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    </div>
+    <div class="collapse navbar-collapse" id="primaryNav">
+      <ul class="navbar-nav ms-auto gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="year.html">Semester Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="collegelist.html">Colleges</a></li>
+        <li class="nav-item"><a class="nav-link" href="books.html">Library</a></li>
+        <li class="nav-item"><a class="nav-link" href="link.html">Important Links</a></li>
+      </ul>
+    </div>
+   </div>
+  </nav>
+</header>
+<main id="main" class="flex-grow-1"><section class="page-intro"><div class="container"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span class="sep" aria-hidden="true">/</span><span aria-current="page">Semester resources</span></nav><div class="eyebrow">ACADEMIC RESOURCES</div><h1>Semester resources</h1><p>Browse all eight semesters. Select a semester to view theory and lab study materials.</p></div></section>
+<section class="section-space compact-top"><div class="container">
+<div class="info-strip" role="note"><strong>Check your syllabus:</strong> These resources reflect the archived syllabus supplied with this project (2017–2018). Confirm which curriculum applies to your batch.</div>
+<div class="section-title-row"><h2>Choose your semester</h2><span class="muted-text">1st year through 4th year</span></div>
+<div id="semesterPicker" class="semester-picker" role="group" aria-label="Select semester">
+<button type="button" class="semester-choice active" data-semester="0" aria-pressed="true">Sem 01 <small>Year 1</small></button>
+<button type="button" class="semester-choice" data-semester="1" aria-pressed="false">Sem 02 <small>Year 1</small></button>
+<button type="button" class="semester-choice" data-semester="2" aria-pressed="false">Sem 03 <small>Year 2</small></button>
+<button type="button" class="semester-choice" data-semester="3" aria-pressed="false">Sem 04 <small>Year 2</small></button>
+<button type="button" class="semester-choice" data-semester="4" aria-pressed="false">Sem 05 <small>Year 3</small></button>
+<button type="button" class="semester-choice" data-semester="5" aria-pressed="false">Sem 06 <small>Year 3</small></button>
+<button type="button" class="semester-choice" data-semester="6" aria-pressed="false">Sem 07 <small>Year 4</small></button>
+<button type="button" class="semester-choice" data-semester="7" aria-pressed="false">Sem 08 <small>Year 4</small></button>
+</div>
+<div class="resource-header"><div><div class="eyebrow">SELECTED SEMESTER</div><h2 id="semesterTitle">Semester 01</h2></div><div class="stat-pill" id="subjectCount" aria-live="polite">Loading subjects…</div></div>
+<div id="semesterStatus" class="status-message" role="status">Loading study materials…</div>
+<div class="row g-4 mt-0"><div class="col-xl-7"><div class="resource-panel"><h3>Theory subjects <span id="theoryCount" class="count-chip"></span></h3><div id="theoryList" class="subject-list"></div></div></div><div class="col-xl-5"><div class="resource-panel"><h3>Laboratory subjects <span id="labCount" class="count-chip"></span></h3><div id="labList" class="subject-list"></div></div></div></div>
+<div class="section-title-row mt-5"><h2>Syllabus & project templates</h2></div>
+<div class="row g-4"><div class="col-lg-6"><div class="resource-panel"><h3>Official syllabus references</h3><p class="muted-text">Archived 2017–2018 documents; check current requirements.</p><div class="link-stack">
+<a href="https://drive.google.com/file/d/11_hXPGe5uo1WB0GUNVSNRPYU3bKi0H06/view?usp=sharing" target="_blank" rel="noopener noreferrer">Year 1 syllabus ↗</a>
+<a href="https://drive.google.com/file/d/1NbD4ATkFs4nc9IUDi07se8d4ZUukG4BB/view?usp=sharing" target="_blank" rel="noopener noreferrer">Year 2 syllabus ↗</a>
+<a href="https://drive.google.com/file/d/1P6gZPfCQuJeCbHitLM1OqHUgMN0keW-2/view?usp=sharing" target="_blank" rel="noopener noreferrer">Year 3 syllabus ↗</a>
+<a href="https://drive.google.com/file/d/1SXUNAw34hbAvQHwZUaJkCROcGRPg2cm8/view?usp=sharing" target="_blank" rel="noopener noreferrer">Year 4 syllabus ↗</a>
+<a href="https://www.nu.ac.bd/syllabus-professionals.php" target="_blank" rel="noopener noreferrer">National University syllabus portal ↗</a></div></div></div>
+<div class="col-lg-6"><div class="resource-panel"><h3>Project and lab templates</h3><p class="muted-text">Reference folders provided by the project maintainer.</p><div class="link-stack"><a href="https://drive.google.com/drive/folders/1XbVZOK4UNRY2WWjLxFLp3K-0aF_SoFPb?usp=sharing" target="_blank" rel="noopener noreferrer">Lab report cover page examples ↗</a>
+<a href="https://drive.google.com/drive/folders/1Ct_Bwu6e_TxHgOi88tYh5IIULB6MHh3f?usp=sharing" target="_blank" rel="noopener noreferrer">Project proposal template ↗</a></div><div class="info-strip mt-3">A previous “Project Paper” button had no URL. It has been removed rather than linking to an empty page.</div></div></div></div>
+</div></section>
+</main><footer class="site-footer mt-auto"><div class="container"><div class="row g-4 py-5">
+  <div class="col-lg-5"><a class="footer-name" href="index.html">NU–CSE Student Hub</a><p class="footer-muted mt-3 mb-2">Independent collection of CSE study materials and student resources for National University learners.</p><p class="small footer-muted mb-0">Unofficial resource website. Confirm academic notices, admissions and syllabus details through official NU sources.</p></div>
+  <div class="col-6 col-lg-3"><h2 class="footer-heading">Explore</h2><a href="year.html">Semester resources</a><a href="collegelist.html">College directory</a><a href="books.html">Digital library</a><a href="link.html">Official links</a></div>
+  <div class="col-6 col-lg-4"><h2 class="footer-heading">Contact & credits</h2><p class="footer-muted small mb-2">Original project by Abu Salah Musha Lemon.</p><a href="mailto:lemonahmed512@gmail.com">Email the maintainer</a><a href="https://abu-salah-musha-lemon.github.io/Personal-Portfolio/" target="_blank" rel="noopener noreferrer">Developer portfolio ↗</a></div>
+  </div><div class="footer-bottom">NU–CSE learning resources <span>•</span> Built for students</div></div></footer>
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="script/site.js"></script>
+<script src="script/subject.js"></script>
+</body></html>
