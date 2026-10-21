@@ -1,78 +1,86 @@
-# NU CSE — Hon's Resource Hub
+# 🎓 ASML-NU-CSE
 
-Question banks, notes, college list, and reference material for National University
-(Bangladesh) B.Sc. (Hon's) Computer Science & Engineering students.
+### National University — Computer Science & Engineering
 
-Live at: https://abu-salah-musha-lemon.github.io/asm-nu-cse/
+<p align="center"> <strong>Your academic companion for CSE resources, books, and study materials.</strong> </p>
 
-## What changed in this rebuild
+<p align="center"> <a href="https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/"> 🌐 Visit Live Website </a> </p>
 
-This is a full rebuild of the original static HTML/Bootstrap site, moved to
-[Astro](https://astro.build) + [Tailwind CSS](https://tailwindcss.com). Content and data are
-unchanged — the goal was a cleaner architecture, not new information.
+---
 
-- **No more client-side `fetch` for nav/footer.** The old site fetched `inc/nav.html` and
-  `inc/footer.html` on every page load; if that failed, the page silently lost its navigation.
-  Now nav and footer are Astro components rendered into the HTML at build time — there is nothing
-  to fetch and nothing to fail.
-- **One data fetch instead of sixteen.** The old `subject.js` fetched `subject.json` sixteen
-  separate times (once per semester × theory/lab) with 330 lines of near-duplicate template
-  strings. The subject data is now read once at build time and rendered through two small
-  reusable components (`SemesterBlock.astro`, `SubjectCard.astro`).
-- **No more DevTools/right-click blocking.** It didn't stop anyone with real intent and broke
-  normal things like opening links in a new tab.
-- **Accordions use native `<details>`/`<summary>`** instead of Bootstrap's JS-driven accordion,
-  so semester and book sections work without any JavaScript, and are keyboard- and
-  screen-reader-accessible by default.
-- **Book previews load lazily.** The 26 embedded Drive previews on the Books page only fetch
-  their iframe once you open that entry, not all at once on page load.
-- **Static output, deployed automatically.** `.github/workflows/deploy.yml` builds and publishes
-  to GitHub Pages on every push to `main` — no manual deploy step.
+## 📖 About the Project
 
-## Project structure
+**ASML-NU-CSE** is a web-based academic resource platform designed to help Computer Science & Engineering students access useful study materials and educational resources in one place.
 
-```
-src/
-  components/    Nav, Footer, SemesterBlock, SubjectCard
-  data/          subjects.json, colleges.json, books.json, links.json, syllabus.json
-  layouts/       Layout.astro (shared <head>, nav, footer)
-  pages/         index.astro, years/, colleges/, books/, links/
-  styles/        global.css (design tokens)
-public/
-  image/         favicon + logo assets
-```
+The platform aims to make academic information easier to find, organize, and access through a simple and user-friendly interface.
 
-## Updating content
+## ✨ Features
 
-All page content lives in `src/data/*.json`. To add or change a subject, college, book, or link,
-edit the relevant JSON file and push — no HTML or JS editing needed for routine content updates.
+- 📚 **Book Collection** — Access a collection of academic books and study resources.
+- 🏛️ **College Directory** — Explore college-related information.
+- 📘 **Academic Resources** — Find subject and year-wise study materials.
+- 🔗 **Useful Links** — Access helpful educational websites and resources.
+- 📱 **Responsive Design** — Browse the website across supported devices.
+- ⚡ **Modern Web Experience** — Built to provide a clean and accessible browsing experience.
 
-- `subjects.json` — one entry per semester, each with `theory[]` and `lab[]` subject arrays
-- `colleges.json` — affiliated college list
-- `books.json` — book/paper name + Google Drive preview link
-- `links.json` — external NU portal links
-- `syllabus.json` — official syllabus PDF links shown on the Subjects page
+## 🌐 Live Website
 
-## Local development
+Visit the website:
 
-```bash
-npm install
-npm run dev       # http://localhost:4321/asm-nu-cse/
-npm run build     # outputs to ./dist
-npm run preview   # serve the production build locally
-```
+[**abu-salah-musha-lemon.github.io/ASML-NU-CSE**](<https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/>)
 
-## Deployment
+## © Copyright
 
-Deployment is automatic via GitHub Actions (`.github/workflows/deploy.yml`) on every push to
-`main`. In the repository's **Settings → Pages**, set the source to **GitHub Actions** (not
-"Deploy from a branch").
+**Copyright © 2023 NU-CSE. All rights reserved.**
 
-If you ever rename this repository, update `base` in `astro.config.mjs` to match the new repo
-name, or every internal link will point to the wrong path.
+Unless otherwise stated, the website's original content, including text, images, graphics, design elements, and software, is claimed as the property of NU-CSE and may be protected by applicable copyright laws.
 
-## Copyright & disclaimer
+Materials are provided for personal, non-commercial use, subject to applicable rights and permissions. Commercial use, redistribution, reproduction, or modification of protected materials may require prior written permission from the relevant rights holder.
 
-© 2026 NU-CSE. Materials on this site are shared for personal study use. Linked PDFs and Drive
-folders are sourced from various contributors; NU-CSE does not host, verify, or endorse
-third-party content. Content complaints should be directed to the original source.
+Third-party materials remain subject to their respective owners' rights and licensing terms.
+
+## 📜 Usage & Permissions
+
+This notice does not grant unrestricted rights to copy, redistribute, modify, or commercially exploit website materials.
+
+- **Personal use:** Permitted where consistent with applicable law and the rights attached to the materials.
+- **Commercial use:** Obtain permission from the relevant rights holder where required.
+- **Redistribution and modification:** Check the applicable license and obtain permission when necessary.
+- **Third-party content:** Follow the original creator's license and terms.
+
+No ownership of third-party materials is claimed by this project.
+
+## ⚖️ Legal Notice
+
+Users are responsible for ensuring that their use of this website and its materials complies with applicable copyright, intellectual property, computer access, and other relevant laws.
+
+For example, the United States' **Computer Fraud and Abuse Act (CFAA)** addresses certain forms of unauthorized access to protected computer systems. Applicable laws vary by jurisdiction; the CFAA is not a universal cyber law.
+
+Nothing in this README constitutes legal advice.
+
+## ⚠️ Disclaimer
+
+### Third-Party Books and Educational Materials
+
+PDF books and other educational materials accessible through this website may originate from third-party websites, publishers, authors, or other sources.
+
+- NU-CSE does not necessarily own or publish these materials.
+- The availability of a resource does not imply endorsement or verification of its accuracy, completeness, or legality.
+- Copyright and distribution rights may belong to the original authors, publishers, or other rights holders.
+- Users should verify the source, licensing terms, and permissions before downloading, reproducing, sharing, or using third-party materials.
+
+If you are a rights holder and believe that material accessible through this website infringes your rights, please contact the project maintainers with the relevant details so the matter can be reviewed.
+
+## 🤝 Contributions
+
+Suggestions, bug reports, and improvements that help make the platform more useful for students are welcome.
+
+Before submitting significant changes, please check the repository's existing contribution guidelines, if available.
+
+## 💙 Acknowledgements
+
+Thanks to the students, educators, contributors, and resource creators who help make academic learning more accessible.
+
+---
+
+<p align="center"> <strong>Built for learning. Designed for students. 🎓</strong> <br> <a href="https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/">Explore ASML-NU-CSE</a> </p>
