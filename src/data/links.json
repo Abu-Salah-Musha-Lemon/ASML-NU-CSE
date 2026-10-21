@@ -1,0 +1,10 @@
+[
+  { "label": "Home", "url": "https://www.nu.ac.bd/" },
+  { "label": "Recent Notice", "url": "https://www.nu.ac.bd/recent-news-notice.php" },
+  { "label": "Exam Notice", "url": "https://www.nu.ac.bd/examination-notice.php" },
+  { "label": "Admission", "url": "http://app1.nu.edu.bd/" },
+  { "label": "Result", "url": "http://results.nu.ac.bd/" },
+  { "label": "Online Form Fill-up", "url": "https://www.nu.ac.bd/online-form-fill-up.php" },
+  { "label": "Student Login", "url": "http://ems.nu.ac.bd/student-login" },
+  { "label": "NU Notice / Instruction Services", "url": "https://www.nu.ac.bd/noticeinstruction.php" }
+]

@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color: deep academic green + gold seal accent, warm green-tinted paper */
+  --color-ink: #1c1b17;
+  --color-paper: #f5f6f0;
+  --color-card: #ffffff;
+  --color-green-950: #0a2e22;
+  --color-green-900: #0d3a2b;
+  --color-green-800: #12503b;
+  --color-green-700: #19684c;
+  --color-gold-600: #b8873a;
+  --color-gold-500: #c89b3c;
+  --color-gold-300: #e3c789;
+  --color-muted: #6b6558;
+  --color-line: #ded9c8;
+
+  --font-display: "Fraunces", "Noto Serif Bengali", serif;
+  --font-body: "IBM Plex Sans", "Noto Sans Bengali", sans-serif;
+  --font-tag: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(13, 58, 43, 0.07) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background-color: var(--color-gold-300);
+  color: var(--color-green-950);
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-gold-600);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.ticket-edge {
+  position: relative;
+}
+.ticket-edge::before,
+.ticket-edge::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: var(--color-paper);
+  z-index: 1;
+}
+.ticket-edge::before {
+  left: -8px;
+}
+.ticket-edge::after {
+  right: -8px;
+}
+
+.disclosure > summary {
+  list-style: none;
+}
+.disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+.disclosure > summary .chevron {
+  transition: transform 0.2s ease;
+}
+.disclosure[open] > summary .chevron {
+  transform: rotate(90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .disclosure > summary .chevron {
+    transition: none;
+  }
+}

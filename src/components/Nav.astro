@@ -1,0 +1,103 @@
+---
+const base = import.meta.env.BASE_URL;
+const path = Astro.url.pathname.replace(base, '/').replace(/\/index\.html$/, '/');
+
+const links = [
+  { href: `${base}`, match: '/', label: 'Home' },
+  { href: `${base}years/`, match: '/years/', label: 'Subjects' },
+  { href: `${base}colleges/`, match: '/colleges/', label: 'College List' },
+  { href: `${base}books/`, match: '/books/', label: 'Books & Papers' },
+  { href: `${base}links/`, match: '/links/', label: 'NU Links' },
+];
+
+function isActive(match: string) {
+  if (match === '/') return path === '/';
+  return path.startsWith(match);
+}
+---
+
+<header class="sticky top-0 z-40 bg-card/95 backdrop-blur border-b border-line">
+  <div class="mx-auto max-w-5xl px-4">
+    <nav class="flex items-center justify-between h-16" aria-label="Primary">
+      <a href={base} class="flex items-center gap-2 group">
+        <span
+          class="grid place-items-center w-9 h-9 rounded-full bg-green-900 text-gold-300 font-tag text-xs font-semibold border border-gold-600"
+        >
+          NU
+        </span>
+        <span class="font-display font-semibold text-lg text-green-950 tracking-tight">
+          CSE Hon's
+        </span>
+      </a>
+
+      <button
+        id="nav-toggle"
+        type="button"
+        class="md:hidden p-2 rounded border border-line"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span class="sr-only">Toggle menu</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+        </svg>
+      </button>
+
+      <ul
+        id="nav-menu"
+        class="hidden md:flex items-center gap-1 font-medium text-sm"
+      >
+        {links.map((l) => (
+          <li>
+            <a
+              href={l.href}
+              aria-current={isActive(l.match) ? 'page' : undefined}
+              class:list={[
+                'block px-3 py-2 rounded transition-colors',
+                isActive(l.match)
+                  ? 'text-green-950 bg-gold-300/50 font-semibold'
+                  : 'text-ink/80 hover:text-green-900 hover:bg-paper',
+              ]}
+            >
+              {l.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <ul
+      id="nav-menu-mobile"
+      class="md:hidden hidden flex-col gap-1 pb-4 font-medium text-sm"
+    >
+      {links.map((l) => (
+        <li>
+          <a
+            href={l.href}
+            aria-current={isActive(l.match) ? 'page' : undefined}
+            class:list={[
+              'block px-3 py-2 rounded transition-colors',
+              isActive(l.match)
+                ? 'text-green-950 bg-gold-300/50 font-semibold'
+                : 'text-ink/80 hover:text-green-900 hover:bg-paper',
+            ]}
+          >
+            {l.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</header>
+
+<script>
+  // Minimal progressive enhancement: only toggles a class, no data fetching,
+  // so it cannot break navigation the way the old fetch-based include did.
+  const toggle = document.getElementById('nav-toggle');
+  const mobileMenu = document.getElementById('nav-menu-mobile');
+  toggle?.addEventListener('click', () => {
+    const isOpen = mobileMenu?.classList.toggle('flex');
+    mobileMenu?.classList.toggle('hidden');
+    toggle.setAttribute('aria-expanded', String(!!isOpen));
+  });
+</script>
