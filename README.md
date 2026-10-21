@@ -1,101 +1,86 @@
-# NU–CSE Student Hub
+# 🎓 ASML-NU-CSE
 
-A lightweight, responsive, static website for CSE students of Bangladesh National University. The site is an **independent student resource**, not an official university service.
+### National University — Computer Science & Engineering
 
-## Features
+<p align="center"> <strong>Your academic companion for CSE resources, books, and study materials.</strong> </p>
 
-- Home: quick links to academic resources, colleges, library, official services.
-- Semester resources: eight semesters, theory and lab material, syllabus links, and project templates. Uses `json/subject.json`.
-- College directory: text search, seat/name sorting, 10-per-page navigation, CSV export, browser print / Save as PDF. Uses `json/data.json`.
-- Digital library: six documents, title search, type filters, A–Z/Z–A sorting, retry/empty states, and accessible large-screen Google Drive preview dialog. Uses `json/book.json`.
-- Important links: official service URLs from the original project (must be reverified periodically).
-- Responsive, accessible navigation, visible focus, skip-to-content, active navigation states, and friendly loading/failure messages.
-- Day/night theme switcher on every page (saved preference, first-visit OS theme), smooth transitions, and reduced-motion support.
+<p align="center"> <a href="https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/"> 🌐 Visit Live Website </a> </p>
 
-## Run locally
+---
 
-The site is **static** and does not use npm or a build system. Start a local server in this folder (opening pages with `file://` can block JSON loading):
+## 📖 About the Project
 
-```bash
-python -m http.server 8000
-```
+**ASML-NU-CSE** is a web-based academic resource platform designed to help Computer Science & Engineering students access useful study materials and educational resources in one place.
 
-Then open http://localhost:8000/ or deploy the folder to GitHub Pages. Bootstrap CSS and JS are stored in `vendor/` so the site does not rely on a CDN to display or interact with the layout. External Google Drive links still require internet access and access permissions.
+The platform aims to make academic information easier to find, organize, and access through a simple and user-friendly interface.
 
-## Update content
+## ✨ Features
 
-- `json/subject.json` — semester/subject names and study links. The code accepts HTTPS links; unavailable links should be `null` or omitted.
-- `json/data.json` — colleges, seats, addresses, and website links. Entries may be outdated; verify externally before updating.
-- `json/book.json` — each resource includes `name`, HTTPS `link`, and `category` (`book`, `project`, or `guide`). The Library uses the appropriate `/view` link for opening a Drive document and `/preview` for the embedded modal. New HTTPS non-Drive links are opened externally without an unsafe iframe.
-- `link.html` — official service links (site content is hand-authored HTML).
-- `style.css` — design tokens and responsive styles.
-- `script/subject.js`, `script/clgo_script.js`, `script/bookList.js` — functional pages.
-- `script/site.js` — global active navigation state, stored appearance preference, and night-mode button.
-- Common header and footer are embedded into each of the five production HTML pages to avoid async content shifts; update each page consistently if navigation changes.
-- Older prototypes from the uploaded ZIP are preserved in `archive/legacy/` and are not part of the current site navigation.
+- 📚 **Book Collection** — Access a collection of academic books and study resources.
+- 🏛️ **College Directory** — Explore college-related information.
+- 📘 **Academic Resources** — Find subject and year-wise study materials.
+- 🔗 **Useful Links** — Access helpful educational websites and resources.
+- 📱 **Responsive Design** — Browse the website across supported devices.
+- ⚡ **Modern Web Experience** — Built to provide a clean and accessible browsing experience.
 
-## Quality and privacy
+## 🌐 Live Website
 
-- No tracking, cookies, logins, or unnecessary right-click restrictions.
-- College and academic reference links have **not** been validated against their external live destinations; reconfirm before publishing admission-related claims.
-- PDF previews may be blocked by content owners; the direct document link remains available.
-- Browser print allows users to choose “Save as PDF”; it does not generate a PDF directly in JavaScript.
-- Bootstrap 5.3.6 is supplied under the MIT license; see `vendor/NOTICE.md`.
+Visit the website:
 
-## Production checklist
+[**abu-salah-musha-lemon.github.io/ASML-NU-CSE**](<https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/>)
 
-1. Review college listings and remove outdated institutions/seat counts.
-2. Verify document rights and Google Drive sharing settings.
-3. Confirm the syllabus version for the intended intake/batch.
-4. Verify official service URLs and migrate `http://` links where the service supports HTTPS.
-5. If institutional branding is used, confirm permission and add an official/unofficial disclaimer prominently.
+## © Copyright
 
-## Testing
+**Copyright © 2023 NU-CSE. All rights reserved.**
 
-Run `python tests/static_checks.py` for built-in data/HTML checks. For browser-logic tests, install Python Playwright and Chromium and run `python tests/interactive_smoke.py`. These tests use mocked local JSON fetches because some environments block browser network access. They are not a substitute for deploying and testing on a real host.
+Unless otherwise stated, the website's original content, including text, images, graphics, design elements, and software, is claimed as the property of NU-CSE and may be protected by applicable copyright laws.
 
-See `QA_REPORT.md` for tested features, resolved issues, and limitations.
+Materials are provided for personal, non-commercial use, subject to applicable rights and permissions. Commercial use, redistribution, reproduction, or modification of protected materials may require prior written permission from the relevant rights holder.
 
-## v2 professional design refresh
+Third-party materials remain subject to their respective owners' rights and licensing terms.
 
-- Original warm canvas `#F4F2EE`, original cyan `#00BCEB`, navy contrast, and restrained original-style blue-gray layered shadows.
-- 60–30–10 visual color balance and Shneiderman's Eight Golden Rules.
-- Unified SVG iconography, breadcrumb navigation, component styling, responsive layouts, and keyboard focus states.
-- Added reversible college search and searchable document library, with informative status and empty states.
-- Semester keyboard shortcuts: arrows for next/previous; Home/End for first/last semester.
+## 📜 Usage & Permissions
 
-See **`DESIGN_SYSTEM.md`** for color tokens, golden-rule implementation, detailed decisions, future-feature priorities, and accessibility limitations.
+This notice does not grant unrestricted rights to copy, redistribute, modify, or commercially exploit website materials.
 
-### Extra UI regression checks
+- **Personal use:** Permitted where consistent with applicable law and the rights attached to the materials.
+- **Commercial use:** Obtain permission from the relevant rights holder where required.
+- **Redistribution and modification:** Check the applicable license and obtain permission when necessary.
+- **Third-party content:** Follow the original creator's license and terms.
 
-```bash
-python tests/ui_design_checks.py
-```
+No ownership of third-party materials is claimed by this project.
 
-This command tests the new design tokens, color contrast, links/icon structure, breadcrumbs, keyboard semester controls, library and college filtering/reset, export feedback, and 360px viewport overflow. It uses Python Playwright and Chromium in the same way as `tests/interactive_smoke.py`.
+## ⚖️ Legal Notice
 
-## v3 Library stability and usability fix (October 2026)
+Users are responsible for ensuring that their use of this website and its materials complies with applicable copyright, intellectual property, computer access, and other relevant laws.
 
-The Library uses a single accessible native `<dialog>` for optional PDF previews instead of embedding iframes inside narrow document cards. The dialog supports a close button, Escape and clicking its backdrop. The external iframe is **created on demand and removed when the preview closes**. Browser focus returns to the relevant preview button. Some Google Drive owners disallow embedding or require login: a direct **Open file** link is always provided where the source URL is valid.
+For example, the United States' **Computer Fraud and Abuse Act (CFAA)** addresses certain forms of unauthorized access to protected computer systems. Applicable laws vary by jurisdiction; the CFAA is not a universal cyber law.
 
-Other improvements: book/project/guide filters, combined title search, title ordering, clear/reset actions, more readable equal-height cards, explicit loading/empty/error states, and an in-page retry button. Categories were added to existing entries in `json/book.json`; all original six Google Drive file IDs are unchanged.
+Nothing in this README constitutes legal advice.
 
-Run the focused UI tests:
+## ⚠️ Disclaimer
 
-```bash
-python tests/library_regression.py
-```
+### Third-Party Books and Educational Materials
 
-The browser test suite simulates the JSON response inside Chromium because loopback HTTP traffic is restricted in the development/testing environment. Deploy to a staging URL and verify Google Drive file sharing and real-browser document previews separately before release.
+PDF books and other educational materials accessible through this website may originate from third-party websites, publishers, authors, or other sources.
 
-## v4 Smooth transitions and Night Mode (October 2026)
+- NU-CSE does not necessarily own or publish these materials.
+- The availability of a resource does not imply endorsement or verification of its accuracy, completeness, or legality.
+- Copyright and distribution rights may belong to the original authors, publishers, or other rights holders.
+- Users should verify the source, licensing terms, and permissions before downloading, reproducing, sharing, or using third-party materials.
 
-Every main page has a keyboard-accessible night/day toggle in the navigation. The chosen theme persists between pages and visits through `localStorage`; if no theme was chosen, the OS light/dark preference is followed. A small inline initializer applies the correct mode before the stylesheet to prevent white flashes.
+If you are a rights holder and believe that material accessible through this website infringes your rights, please contact the project maintainers with the relevant details so the matter can be reviewed.
 
-Short CSS transitions cover cards, interactions, dialogs, and optionally page-to-page navigation (supported browsers only); `prefers-reduced-motion` disables these effects. Colors, shadows, and warm-neutral day theme remain consistent with the original project.
+## 🤝 Contributions
 
-```bash
-python tests/theme_motion_regression.py
-```
+Suggestions, bug reports, and improvements that help make the platform more useful for students are welcome.
 
-See `NIGHT_MODE_AND_MOTION.md` and `THEME_QA_REPORT.md` for implementation details and tested scope.
+Before submitting significant changes, please check the repository's existing contribution guidelines, if available.
+
+## 💙 Acknowledgements
+
+Thanks to the students, educators, contributors, and resource creators who help make academic learning more accessible.
+
+---
+
+<p align="center"> <strong>Built for learning. Designed for students. 🎓</strong> <br> <a href="https://abu-salah-musha-lemon.github.io/ASML-NU-CSE/">Explore ASML-NU-CSE</a> </p>
